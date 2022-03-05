@@ -5,6 +5,40 @@
 <section>
 
 	<!-- This example requires Tailwind CSS v2.0+ -->
+	<div class="bg-gray-50 pt-12 sm:pt-16">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="max-w-4xl mx-auto text-center">
+				<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Строительно-ремонтная компания "Новострой"</h2>
+				<p class="mt-3 text-xl text-gray-500 sm:mt-4">Высококачественный профессиональный ремонт помещений. Строительство малоэтажных конструкций, бань, дач и технических сооружений.</p>
+			</div>
+		</div>
+		<div class="mt-10 pb-12 bg-white sm:pb-16">
+			<div class="relative">
+				<div class="absolute inset-0 h-1/2 bg-gray-50"></div>
+				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div class="max-w-4xl mx-auto">
+						<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+							<div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
+								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">гарантии</dt>
+								<dd class="order-1 text-5xl font-extrabold text-indigo-600">100%</dd>
+							</div>
+							<div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
+								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">поддержка</dt>
+								<dd class="order-1 text-5xl font-extrabold text-indigo-600">24/7</dd>
+							</div>
+							<div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
+								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">объекта</dt>
+								<dd class="order-1 text-5xl font-extrabold text-indigo-600">483</dd>
+							</div>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="bg-white py-16 lg:py-24">
 		<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="relative py-24 px-8 bg-indigo-500 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
@@ -14,11 +48,11 @@
 				<div class="relative lg:col-span-1">
 					<img class="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="">
 					<blockquote class="mt-6 text-white">
-						<p class="text-xl font-medium sm:text-2xl">Высококачественный профессиональный ремонт помещений. Строительство малоэтажных конструкций, бань, дач и технических сооружений.</p>
+						<p class="text-xl font-medium sm:text-2xl">Быстро и качественно выполняем работы по ремонту помещений и возведению сооружений различного назначения. Работаем с физическими и юридическими лицами. Будем рады сотрудничеству.</p>
 						<footer class="mt-6">
 							<p class="flex flex-col font-medium">
-								<span>Строительно-ремонтная компания</span>
-								<span>"Новострой"</span>
+								<span>Главный директор</span>
+								<span>Попугаева Алёна Евгеньевна &#128105;</span>
 							</p>
 						</footer>
 					</blockquote>
@@ -139,44 +173,6 @@
 			</dl>
 		</div>
 	</div>
-
-
-	<!-- This example requires Tailwind CSS v2.0+ -->
-	<div class="bg-gray-50 pt-12 sm:pt-16">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Trusted by developers from over 80 planets</h2>
-				<p class="mt-3 text-xl text-gray-500 sm:mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.</p>
-			</div>
-		</div>
-		<div class="mt-10 pb-12 bg-white sm:pb-16">
-			<div class="relative">
-				<div class="absolute inset-0 h-1/2 bg-gray-50"></div>
-				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-					<div class="max-w-4xl mx-auto">
-						<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-							<div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Pepperoni</dt>
-								<dd class="order-1 text-5xl font-extrabold text-indigo-600">100%</dd>
-							</div>
-							<div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Delivery</dt>
-								<dd class="order-1 text-5xl font-extrabold text-indigo-600">24/7</dd>
-							</div>
-							<div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">Calories</dt>
-								<dd class="order-1 text-5xl font-extrabold text-indigo-600">100k</dd>
-							</div>
-						</dl>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
 
 
 </section>

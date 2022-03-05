@@ -22,7 +22,7 @@
             </div>
 
             <div class="px-5 py-2">
-                <a href="/work" class="text-base text-gray-500 hover:text-gray-900"> Объекты </a>
+                <a href="/objects" class="text-base text-gray-500 hover:text-gray-900"> Объекты </a>
             </div>
 
             <div class="px-5 py-2">
@@ -69,7 +69,7 @@
 <!--                </svg>-->
 <!--            </a>-->
 <!--        </div>-->
-        <p class="mt-8 text-center text-base text-gray-400">&copy; 2021-{year} Компания "Новострой" Строительство и ремонт.
+        <p class="mt-8 text-center text-base text-gray-400">&copy; 2015-{year} Компания "Новострой". Строительство и ремонт зданий и помещений.
             <br>Обслуживание сайта +7 (495) 147-55-50
         </p>
     </div>

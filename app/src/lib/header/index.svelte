@@ -21,7 +21,7 @@
                 <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"> Главная </a>
                 <a href="/about" class="text-base font-medium text-gray-500 hover:text-gray-900"> О нас </a>
                 <a href="/price" class="text-base font-medium text-gray-500 hover:text-gray-900"> Цены </a>
-                <a href="/works" class="text-base font-medium text-gray-500 hover:text-gray-900"> Объекты </a>
+                <a href="/objects" class="text-base font-medium text-gray-500 hover:text-gray-900"> Объекты </a>
                 <a href="/blog" class="text-base font-medium text-gray-500 hover:text-gray-900"> Блог </a>
                 <a href="/contacts" class="text-base font-medium text-gray-500 hover:text-gray-900"> Контакты </a>
 
