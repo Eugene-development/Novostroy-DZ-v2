@@ -10,7 +10,7 @@
 	<div class="bg-gray-50 pt-12 sm:pt-16">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-3xl font-extrabold text-cyan-900 sm:text-5xl">Ремонтно-строительная компания "Новострой"</h2>
+				<h2 class="text-3xl font-extrabold text-cyan-700 sm:text-5xl">Ремонтно-строительная компания "Новострой"</h2>
 				<p class="mt-3 text-xl text-gray-500 sm:mt-4">Профессиональный полный или частичный ремонт квартир в Дзержинске. Строительство малоэтажных конструкций, бань, дач и технических сооружений.</p>
 			</div>
 		</div>
@@ -82,12 +82,6 @@
 					<div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div>
 					<div class="p-6 flex items-end">
 						<div>
-							<h3 class="font-semibold text-white">
-								<a href="#">
-									<span class="absolute inset-0"></span>
-									New Arrivals
-								</a>
-							</h3>
 							<p aria-hidden="true" class="mt-1 text-sm text-white">
 								Shop now
 							</p>
@@ -99,12 +93,6 @@
 					<div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div>
 					<div class="p-6 flex items-end sm:absolute sm:inset-0">
 						<div>
-							<h3 class="font-semibold text-white">
-								<a href="#">
-									<span class="absolute inset-0"></span>
-									Accessories
-								</a>
-							</h3>
 							<p aria-hidden="true" class="mt-1 text-sm text-white">
 								Shop now
 							</p>
@@ -116,12 +104,6 @@
 					<div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50 sm:absolute sm:inset-0"></div>
 					<div class="p-6 flex items-end sm:absolute sm:inset-0">
 						<div>
-							<h3 class="font-semibold text-white">
-								<a href="#">
-									<span class="absolute inset-0"></span>
-									Workspace
-								</a>
-							</h3>
 							<p aria-hidden="true" class="mt-1 text-sm text-white">
 								Shop now
 							</p>
