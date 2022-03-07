@@ -10,7 +10,7 @@
 	<div class="bg-gray-50 pt-12 sm:pt-16">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-3xl font-extrabold text-cyan-700 sm:text-5xl">Ремонтно-строительная компания "Новострой"</h2>
+				<h2 class="text-4xl font-extrabold text-cyan-700 sm:text-5xl">Ремонтно-строительная компания "Новострой"</h2>
 				<p class="mt-3 text-xl text-gray-500 sm:mt-4">Профессиональный полный или частичный ремонт квартир в Дзержинске. Строительство малоэтажных конструкций, бань, дач и технических сооружений.</p>
 			</div>
 		</div>
@@ -70,6 +70,55 @@
 <!--		</main>-->
 <!--	</div>-->
 
+	<div class="bg-white">
+		<div class="max-w-7xl mx-auto py-24 sm:py-32 sm:px-2 lg:px-4">
+			<div class="max-w-2xl mx-auto px-4 lg:max-w-none">
+				<div class="max-w-3xl">
+					<h2 class="font-semibold text-gray-500">Стилистика</h2>
+					<p class="mt-2 text-3xl font-extrabold tracking-tight text-cyan-700 sm:text-5xl">Выбирайте то что вам нравится</p>
+					<p class="mt-4 text-gray-500">The Drawstring Canister comes with multiple strap and handle options to adapt throughout your day. Shoulder sling it, backpack it, or handy carry it.</p>
+				</div>
+
+				<div class="space-y-16 pt-10 mt-10 border-t border-gray-200 sm:pt-16 sm:mt-16">
+					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
+						<div class="mt-6 lg:mt-0 lg:col-span-5 xl:col-span-4">
+							<h3 class="text-2xl font-medium text-cyan-700">Минимализм</h3>
+							<p class="mt-2 text-sm text-gray-500">The Drawstring Canister is water and tear resistant with durable canvas construction. This bag holds up to the demands of daily use while keeping your snacks secure.</p>
+						</div>
+						<div class="flex-auto lg:col-span-7 xl:col-span-8">
+							<div class="aspect-w-5 aspect-h-2 rounded-lg bg-gray-100 overflow-hidden">
+								<img src="https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-03.jpg" alt="Printed photo of bag being tossed into the sky on top of grass." class="object-center object-cover">
+							</div>
+						</div>
+					</div>
+
+					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
+						<div class="mt-6 lg:mt-0 lg:col-span-5 xl:col-span-4">
+							<h3 class="text-2xl font-medium text-cyan-700">Лофт</h3>
+							<p class="mt-2 text-sm text-gray-500">Everything you need, nothing you don&#039;t. This bag has the simple, contemporary design that enables you to tell everyone you know about how essentialism is the only rational way to live life.</p>
+						</div>
+						<div class="flex-auto lg:col-span-7 xl:col-span-8">
+							<div class="aspect-w-5 aspect-h-2 rounded-lg bg-gray-100 overflow-hidden">
+								<img src="https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-01.jpg" alt="Double stitched black canvas hook loop." class="object-center object-cover">
+							</div>
+						</div>
+					</div>
+
+					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
+						<div class="mt-6 lg:mt-0 lg:col-span-5 xl:col-span-4">
+							<h3 class="text-2xl font-medium text-cyan-700">Классика</h3>
+							<p class="mt-2 text-sm text-gray-500">Never lose your snacks again with our patent-pending snack stash pocket system. With dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new levels of efficiency and convenience.</p>
+						</div>
+						<div class="flex-auto lg:col-span-7 xl:col-span-8">
+							<div class="aspect-w-5 aspect-h-2 rounded-lg bg-gray-100 overflow-hidden">
+								<img src="https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-02.jpg" alt="Black canvas body with chrome zipper and key ring." class="object-center object-cover">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -84,7 +133,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Invite team members</p>
@@ -95,7 +144,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Notifications</p>
@@ -106,7 +155,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">List view</p>
@@ -117,7 +166,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Boards</p>
@@ -128,7 +177,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Keyboard shortcuts</p>
@@ -139,7 +188,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Reporting</p>
@@ -150,7 +199,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Calendars</p>
@@ -161,7 +210,7 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
 						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Mobile app</p>
@@ -172,28 +221,6 @@
 		</div>
 	</div>
 
-	<!-- This example requires Tailwind CSS v2.0+ -->
-	<div class="bg-white py-16 lg:py-24">
-		<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="relative py-24 px-8 bg-cyan-800 rounded-xl shadow-2xl overflow-hidden lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8">
-				<div class="absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply">
-					<img src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80" alt="" class="w-full h-full object-cover">
-				</div>
-				<div class="relative lg:col-span-1">
-					<img class="h-12 w-auto" src="static/logo-header.png" alt="">
-					<blockquote class="mt-6 text-white">
-						<p class="text-xl font-medium sm:text-2xl">Быстро и качественно выполняем работы по ремонту помещений и возведению сооружений различного назначения. Работаем с физическими и юридическими лицами. Будем рады сотрудничеству.</p>
-						<footer class="mt-6">
-							<p class="flex flex-col font-medium">
-								<span>Главный директор</span>
-								<span>Попугаева Алёна Евгеньевна &#128105;</span>
-							</p>
-						</footer>
-					</blockquote>
-				</div>
-			</div>
-		</div>
-	</div>
 
 
 
@@ -211,10 +238,10 @@
 			<div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
 			<div class="absolute inset-x-0 bottom-0 bg-black bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
 				<div>
-					<h2 class="text-xl font-bold text-white">Workspace Collection</h2>
-					<p class="mt-1 text-sm text-gray-300">Upgrade your desk with objects that keep you organized and clear-minded.</p>
+					<h2 class="text-xl font-bold text-white">Бесплатная услуга</h2>
+					<p class="mt-1 text-sm text-gray-300">Консультация на объекте для получения более подробной информации и рекомендуемых работах.</p>
 				</div>
-				<a href="#" class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">View the collection</a>
+				<a href="#" class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Записаться на консультацию</a>
 			</div>
 		</div>
 	</div>
