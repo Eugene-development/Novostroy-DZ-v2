@@ -6,42 +6,78 @@
 
 <section>
 
-	<!-- This example requires Tailwind CSS v2.0+ -->
-	<div class="bg-gray-50 pt-12 sm:pt-16">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="max-w-4xl mx-auto text-center">
-				<h2 class="text-4xl font-extrabold text-cyan-700 sm:text-5xl">Ремонтно-строительная компания "Новострой"</h2>
-				<p class="mt-3 text-xl text-gray-500 sm:mt-4">Профессиональный полный или частичный ремонт квартир в Дзержинске. Строительство малоэтажных конструкций, бань, дач и технических сооружений.</p>
-			</div>
-		</div>
-		<div class="mt-10 pb-12 bg-white sm:pb-16">
-			<div class="relative">
-				<div class="absolute inset-0 h-1/2 bg-gray-50"></div>
-				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-					<div class="max-w-4xl mx-auto">
-						<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-							<div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">гарантии</dt>
-								<dd class="order-1 text-5xl font-extrabold text-cyan-600">100%</dd>
-							</div>
-							<div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">поддержка</dt>
-								<dd class="order-1 text-5xl font-extrabold text-cyan-600">24/7</dd>
-							</div>
-							<div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">объекта</dt>
-								<dd class="order-1 text-5xl font-extrabold text-cyan-600">483</dd>
-							</div>
-						</dl>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<figure>
-		<img class="w-full px-48" src="static/logo.png" alt="">
-	</figure>
+
+	<!--
+  This example requires Tailwind CSS v2.0+
+
+  This example requires some changes to your config:
+
+  ```
+  // tailwind.config.js
+  const colors = require('tailwindcss/colors')
+
+  module.exports = {
+    // ...
+    theme: {
+      extend: {
+        colors: {
+          'warm-gray': colors.warmGray,
+          sky: colors.sky,
+          cyan: colors.cyan,
+        },
+      },
+    },
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+
+
+	<!-- This example requires Tailwind CSS v2.0+ -->
+<!--	<div class="bg-gradient-to-r from-cyan-500 via-purple-600 to-blue-500 pt-12 sm:pt-16">-->
+
+<!--		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">-->
+
+<!--			<div class="max-w-4xl mx-auto text-center">-->
+
+<!--				<h2 class="text-4xl font-extrabold text-cyan-50 sm:text-5xl">Красочный ремонт вашей квартиры</h2>-->
+<!--				<p class="mt-3 text-xl text-cyan-50 sm:mt-4">Профессиональный полный или частичный ремонт квартир в Дзержинске.-->
+<!--&lt;!&ndash;					<br> Строительство малоэтажных конструкций, бань, дач и технических сооружений.&ndash;&gt;-->
+<!--				</p>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--		<div class="mt-10 pb-12 bg-white sm:pb-16">-->
+<!--			<div class="relative">-->
+<!--				<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-cyan-500 via-purple-600 to-blue-500"></div>-->
+<!--				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">-->
+<!--					<div class="max-w-4xl mx-auto">-->
+<!--						<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">-->
+<!--							<div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">-->
+<!--								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">гарантии</dt>-->
+<!--								<dd class="order-1 text-5xl font-extrabold text-cyan-600">100%</dd>-->
+<!--							</div>-->
+<!--							<div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">-->
+<!--								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">поддержка</dt>-->
+<!--								<dd class="order-1 text-5xl font-extrabold text-cyan-600">24/7</dd>-->
+<!--							</div>-->
+<!--							<div class="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">-->
+<!--								<dt class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">объекта</dt>-->
+<!--								<dd class="order-1 text-5xl font-extrabold text-cyan-600">483</dd>-->
+<!--							</div>-->
+<!--						</dl>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+
+<!--	<figure>-->
+<!--		<img class="w-sm  mx-auto" src="static/logo.png" alt="">-->
+<!--	</figure>-->
 
 	<!-- This example requires Tailwind CSS v2.0+ -->
 <!--	<div class="relative bg-gray-50">-->
@@ -75,7 +111,7 @@
 			<div class="max-w-2xl mx-auto px-4 lg:max-w-none">
 				<div class="max-w-3xl">
 					<h2 class="font-semibold text-gray-500">Стилистика</h2>
-					<p class="mt-2 text-3xl font-extrabold tracking-tight text-cyan-700 sm:text-5xl">Выбирайте то что вам нравится</p>
+					<p class="mt-2 text-3xl font-extrabold tracking-tight text-cyan-700 sm:text-5xl">Выбирайте то, что вам нравится</p>
 					<p class="mt-4 text-gray-500">The Drawstring Canister comes with multiple strap and handle options to adapt throughout your day. Shoulder sling it, backpack it, or handy carry it.</p>
 				</div>
 
