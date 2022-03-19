@@ -2,7 +2,7 @@
     <div class="relative pb-24 bg-sky-800 sm:pb-32">
         <div class="absolute inset-0">
             <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">
-            <div class="absolute inset-0 bg-gradient-to-l from-sky-800 to-cyan-700 mix-blend-multiply" aria-hidden="true"></div>
+            <div class="absolute inset-0 bg-gradient-to-l from-sky-700 to-sky-900 mix-blend-multiply" aria-hidden="true"></div>
         </div>
         <div class="relative z-10">
             <nav class="relative max-w-7xl mx-auto flex items-center justify-between pt-6 pb-2 px-4 sm:px-6 lg:px-8" aria-label="Global">

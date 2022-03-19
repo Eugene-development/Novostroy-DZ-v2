@@ -25,7 +25,7 @@
 	<div class="py-16 bg-gray-50 overflow-hidden">
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
-				<h2 class="text-base text-purple-600 font-semibold tracking-wide uppercase">Transactions</h2>
+				<h2 class="text-base text-purple-700 font-semibold tracking-wide uppercase">Наша услуга</h2>
 				<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт квартир любой сложности на лучших условиях</p>
 			</div>
 			<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
@@ -52,11 +52,11 @@
 					</div>
 					<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
 						<div class="rounded-md shadow">
-							<a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"> Contact sales </a>
+							<a href="/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700"> Получить консультацию </a>
 						</div>
-						<div class="rounded-md shadow ml-4">
-							<a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"> Learn more </a>
-						</div>
+<!--						<div class="rounded-md shadow ml-4">-->
+<!--							<a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"> Learn more </a>-->
+<!--						</div>-->
 					</div>
 				</div>
 				<div class="mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none">
@@ -78,13 +78,13 @@
 								<p class="relative">Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus.</p>
 							</div>
 						</div>
-						<cite class="relative flex items-center sm:items-start bg-purple-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+						<cite class="relative flex items-center sm:items-start bg-sky-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
 							<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
 								<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-purple-300" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
 							</div>
-							<span class="relative ml-4 text-indigo-300 font-semibold leading-6 sm:ml-24 sm:pl-1">
-							  <p class="text-white font-semibold sm:inline">Judith Black</p>
-							  <p class="sm:inline">CEO at Workcation</p>
+							<span class="relative ml-4 text-indigo-200 font-semibold leading-6 sm:ml-24 sm:pl-1">
+							  <p class="text-white font-semibold sm:inline">Алёна Попугаева</p>
+							  <p class="sm:inline"> - Старший менеджер</p>
 							</span>
 						</cite>
 					</blockquote>
