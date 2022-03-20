@@ -26,7 +26,7 @@
 	<div class="py-16 bg-gray-50 overflow-hidden">
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
-				<h2 class="text-base text-purple-700 font-semibold tracking-wide uppercase">Наша услуга</h2>
+				<h2 class="text-base text-sky-600 font-semibold tracking-wide uppercase">Наша услуга</h2>
 				<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт квартир любой сложности на лучших условиях</p>
 			</div>
 			<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
@@ -53,7 +53,7 @@
 					</div>
 					<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
 						<div class="rounded-md shadow">
-							<a href="/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700"> Получить консультацию </a>
+							<a href="/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-700 hover:bg-sky-700"> Получить консультацию </a>
 						</div>
 <!--						<div class="rounded-md shadow ml-4">-->
 <!--							<a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"> Learn more </a>-->
@@ -79,7 +79,7 @@
 								<p class="relative">Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus.</p>
 							</div>
 						</div>
-						<cite class="relative flex items-center sm:items-start bg-sky-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+						<cite class="relative flex items-center sm:items-start bg-sky-700 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
 							<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
 								<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-purple-300" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
 							</div>
@@ -200,8 +200,8 @@
 			<div class="max-w-2xl mx-auto px-4 lg:max-w-none">
 				<div class="max-w-3xl">
 					<h2 class="font-semibold text-gray-500">Стилистика</h2>
-					<p class="mt-2 text-3xl font-extrabold tracking-tight text-cyan-700 sm:text-5xl">Выбирайте стиль по душе</p>
-					<p class="mt-4 text-gray-500">The Drawstring Canister comes with multiple strap and handle options to adapt throughout your day. Shoulder sling it, backpack it, or handy carry it.</p>
+					<p class="mt-2 text-3xl font-extrabold tracking-tight text-sky-700 sm:text-5xl">Выбирайте стиль по душе</p>
+					<p class="mt-4 text-gray-500">Интерьер дома это отражение характера хозяина. Выбипайте стиль ремонта по вашему желанию и живите в комфортном для вас уюте.</p>
 				</div>
 
 				<div class="space-y-16 pt-10 mt-10 border-t border-gray-200 sm:pt-16 sm:mt-16">
