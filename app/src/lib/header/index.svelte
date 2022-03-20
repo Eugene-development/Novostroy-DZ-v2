@@ -1,3 +1,23 @@
+<script>
+
+    import { page } from '$app/stores';
+    let pageOffer;
+   $: switch ($page.url.pathname) {
+        case '/': pageOffer = 'Ремонт квартир в Дзержинске'
+            break;
+        case '/about': pageOffer = 'О нашей компании'
+            break;
+        case '/price': pageOffer = 'Цены на услуги'
+            break;
+        case '/objects': pageOffer = 'Выполненные объекты'
+            break;
+        case '/blog': pageOffer = 'Наш блог'
+            break;
+        case '/contacts': pageOffer = 'Связь с нами'
+            break;
+    }
+</script>
+
 <div class="bg-white">
     <div class="relative pb-24 bg-sky-800 sm:pb-32">
         <div class="absolute inset-0">
@@ -81,8 +101,10 @@
         </div>
 
         <div class="relative mt-24 max-w-md mx-auto px-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Ремонт квартир в Дзержинске</h1>
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">{pageOffer}</h1>
             <p class="mt-6 text-xl text-cyan-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
         </div>
+
+
     </div>
 </div>
