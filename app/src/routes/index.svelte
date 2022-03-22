@@ -105,7 +105,7 @@
 </div>
 
 <div>
-	<div class="bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 sm:pt-16">
+	<div class="bg-gradient-to-r from-sky-400 via-sky-700 to-sky-400 pt-12 sm:pt-16">
 
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -119,7 +119,7 @@
 		</div>
 		<div class="mt-10 pb-12 bg-white sm:pb-16">
 			<div class="relative">
-				<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500"></div>
+				<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-sky-400 via-sky-700 to-sky-400"></div>
 				<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div class="max-w-4xl mx-auto">
 						<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
