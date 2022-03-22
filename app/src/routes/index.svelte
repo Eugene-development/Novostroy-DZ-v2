@@ -344,11 +344,11 @@
 	<div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
 		<div class="relative rounded-lg overflow-hidden lg:h-96">
 			<div class="absolute inset-0">
-				<img src="https://tailwindui.com/img/ecommerce-images/category-page-01-featured-collection.jpg" alt="" class="w-full h-full object-center object-cover">
+				<img src="https://static.tildacdn.com/tild6439-3537-4432-a537-313630626433/2efd3b42642e.jpg" alt="" class="w-full h-full object-center object-cover">
 			</div>
 			<div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
 			<div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
-			<div class="absolute inset-x-0 bottom-0 bg-sky-900 bg-opacity-75 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
+			<div class="absolute inset-x-0 bottom-0 bg-sky-900 bg-opacity-50 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
 				<div>
 					<h2 class="text-xl font-bold text-white">Бесплатная услуга</h2>
 					<p class="mt-1 text-sm text-gray-300">Консультация на объекте для получения более подробной информации и рекомендуемых работах.</p>
