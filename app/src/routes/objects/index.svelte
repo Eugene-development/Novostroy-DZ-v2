@@ -7,7 +7,6 @@
                 <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Introducing</span>
                 <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
             </h1>
-
         </div>
 
         <div class="max-w-2xl mx-auto py-8 sm:py-16 lg:py-24 lg:max-w-none">
