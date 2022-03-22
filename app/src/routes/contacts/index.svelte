@@ -36,7 +36,7 @@
             <div class="mt-12 sm:mt-16 md:mt-0">
                 <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Бригадир мастеров</h2>
                 <div class="mt-3">
-                    <p class="text-lg text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, repellat error corporis doloribus similique, voluptatibus numquam quam, quae officiis facilis.</p>
+                    <p class="text-lg text-gray-500">Lorem, ipsum dolor sit amet. Magni, repellat error corporis doloribus similique, voluptatibus numquam quam, quae officiis facilis.</p>
                 </div>
                 <div class="mt-9">
                     <div class="flex">

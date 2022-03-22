@@ -4,14 +4,20 @@
 </script>
 
 <div class="bg-white">
-    <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="text-lg max-w-prose mx-auto">
+            <h1>
+                <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Introducing</span>
+                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
+            </h1>
+
+        </div>
+
         <div class="sm:flex sm:flex-col sm:align-center">
-            <h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">Наши цены за работу</h1>
-            <p class="mt-5 text-xl text-gray-500 sm:text-center">Цифры ориентировочные. Точные цены предоставляем после составления сметы на работы.</p>
-<!--            <div class="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8">-->
-<!--                <button type="button" class="relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 sm:w-auto sm:px-8">Monthly billing</button>-->
-<!--                <button type="button" class="ml-0.5 relative w-1/2 border border-transparent rounded-md py-2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 sm:w-auto sm:px-8">Yearly billing</button>-->
-<!--            </div>-->
+            <div class="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8">
+                <button type="button" class="relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 sm:w-auto sm:px-8">Monthly billing</button>
+                <button type="button" class="ml-0.5 relative w-1/2 border border-transparent rounded-md py-2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:z-10 sm:w-auto sm:px-8">Yearly billing</button>
+            </div>
         </div>
         <div class="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-3">
 
