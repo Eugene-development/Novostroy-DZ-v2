@@ -3,8 +3,8 @@
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
             <h1>
-                <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Introducing</span>
-                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
+                <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Контакты</span>
+                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Связаться с нами</span>
             </h1>
         </div>
 

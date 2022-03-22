@@ -30,8 +30,8 @@
     <div class="relative px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
             <h1>
-                <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Introducing</span>
-                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</span>
+                <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">О нас</span>
+                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Информация о компании</span>
             </h1>
         </div>
         <div class="mt-6 prose prose-sky prose-lg text-gray-500 mx-auto">
