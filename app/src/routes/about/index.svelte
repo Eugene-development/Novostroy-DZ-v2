@@ -35,19 +35,21 @@
             </h1>
         </div>
         <div class="mt-6 prose prose-sky prose-lg text-gray-500 mx-auto">
-            <p>Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.</p>
-            <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-            </ul>
-            <p>Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.</p>
-            <h2>From beginner to expert in 30 days</h2>
-            <p>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
+            <p>С 2009 года мы осуществляем широкопрофильные работы по ремонту квартир в Дзержинске, в том числе и под ключ. Компания начинала с малого, однако благодаря ответственному грамотному подходу, использованию качественных материалов и привлечению высококлассных специалистов, масштабы работ постепенно увеличивались. Все это, естественно, сказалось как на количестве клиентов, так и сотрудников. Теперь штат компании состоит из 10 бригад в трёх городах. В каждую из которых входит по пять-шесть человек.</p>
+            <p>Благодаря такому подходу, нашу деятельность можно назвать более чем успешной, поэтому мы можем себе позволить сделать 20%-ю скидку льготным категориям граждан. Чтобы ее получить, вам нужно просто обратиться к нам, и подтвердив право на льготу заказать или конкретные, либо комплексные услуги.</p>
+            <h2>От начала до крупной компании за 12 лет</h2>
+            <p>За спиной нашей компании плодотворная деятельность, которая продолжается уже больше 12-ти лет. Именно профессионализм помогает нам удержаться на этом рынке. Мы понимаем, чтобы оставаться на плаву, нужно все делать максимально качественно. Поэтому для нас не существует второстепенных заказчиков. Мы привыкли делать все на совесть. Это видит и ценит каждый клиент.</p>
+            <p>Вот некоторые из отзывов:</p>
             <blockquote>
                 <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
             </blockquote>
-            <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
+            <blockquote>
+                <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+            </blockquote>
+            <blockquote>
+                <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+            </blockquote>
+            <p>Будем рады преобразить ваш дом или квартиру!</p>
             <figure>
                 <img class="w-full rounded-lg" src="static/logo.png" alt="logo" width="1310" height="873">
             </figure>

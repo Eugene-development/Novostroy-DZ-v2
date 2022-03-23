@@ -6,8 +6,8 @@
 
 
 
-<div class="bg-white">
-	<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-16 lg:px-8">
+<div class="bg-gradient-to-b from-white to-gray-100">
+	<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-16 lg:px-8 ">
 		<div class="text-lg  max-w-prose mx-auto">
 			<h1>
 				<span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Главная</span>
@@ -32,7 +32,7 @@
 								<div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
 									<div class="text-base font-medium text-gray-900">Иванов Иван</div>
 
-									<svg class="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+									<svg class="hidden md:block mx-1 h-5 w-5 text-sky-600" fill="currentColor" viewBox="0 0 20 20">
 										<path d="M11 0h3L9 20H6l5-20z" />
 									</svg>
 
@@ -47,7 +47,7 @@
 
 
 		<div class="mt-12">
-			<div class="bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 sm:pt-16">
+			<div class="bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 sm:pt-16 rounded-lg">
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -59,9 +59,9 @@
 						</p>
 					</div>
 				</div>
-				<div class="mt-10 pb-12 bg-white sm:pb-16">
+				<div class="mt-10 pb-12 sm:pb-16">
 					<div class="relative">
-						<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12"></div>
+						<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 ro rounded-b-lg"></div>
 						<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 							<div class="max-w-4xl mx-auto">
 								<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
@@ -180,13 +180,14 @@
 </div>
 
 
+<section class="">
 
-<section>
 	<div class="py-16 bg-gradient-to-b from-white to-gray-100 overflow-hidden">
+
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
 				<h2 class="text-base text-sky-600 font-semibold tracking-wide uppercase">Наша услуга</h2>
-				<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт квартир любой сложности на лучших условиях</p>
+				<p class="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-sky-900 sm:text-5xl">Ремонт квартир любой сложности</p>
 			</div>
 			<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
 				<p class="py-1 text-lg text-gray-500">Время от времени у каждого возникает необходимость облагородить свое родное помещение. Если и для вас настал такой момент, доверьте эту работу настоящим профессионалам. </p>
@@ -195,7 +196,7 @@
 			</div>
 			<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
 				<div class="relative z-10">
-					<div class="prose prose-indigo text-gray-500 mx-auto lg:max-w-none">
+					<div class="prose prose-sky text-gray-500 mx-auto lg:max-w-none">
 						<p class="text-lg">Для этого наши специалисты:</p>
 						<ul role="list">
 							<li>полностью демонтируют отделку</li>
@@ -207,7 +208,7 @@
 							<li>самостоятельно устанавливают мебель по ранее согласованному проекту, а также выполняют все остальные работы</li>
 						</ul>
 						<p>Мы также тщательно следим за каждым сотрудником. К нам просто не может попасть непрофессионал или человек, который относится к своей работе легкомысленно. </p>
-						<h3>Мы готовы вам помочь</h3>
+						<h3 class="text-sky-900">Мы готовы вам помочь</h3>
 						<p>Запишитесь на бесплатную консультацию или задайте ваш вопрос в чате. Мы всегда будем рады общению с вами и ответим на любые вопросы</p>
 					</div>
 <!--					<div class="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">-->
@@ -215,7 +216,7 @@
 <!--							<a href="/" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-700 hover:bg-sky-700"> Получить консультацию </a>-->
 <!--						</div>-->
 <!--&lt;!&ndash;						<div class="rounded-md shadow ml-4">&ndash;&gt;-->
-<!--&lt;!&ndash;							<a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"> Learn more </a>&ndash;&gt;-->
+<!--&lt;!&ndash;							<a href="#" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-sky-600 bg-white hover:bg-gray-50"> Learn more </a>&ndash;&gt;-->
 <!--&lt;!&ndash;						</div>&ndash;&gt;-->
 <!--					</div>-->
 				</div>
@@ -242,7 +243,7 @@
 							<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
 								<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-purple-300" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
 							</div>
-							<span class="relative ml-4 text-indigo-200 font-semibold leading-6 sm:ml-24 sm:pl-1">
+							<span class="relative ml-4 text-sky-200 font-semibold leading-6 sm:ml-24 sm:pl-1">
 							  <p class="text-white font-semibold sm:inline">Алёна Попугаева</p>
 							  <p class="sm:inline"> - Старший менеджер</p>
 							</span>
