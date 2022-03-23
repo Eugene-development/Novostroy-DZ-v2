@@ -29,7 +29,7 @@
                 <div class="flex items-center justify-between w-full lg:w-auto">
                     <a href="/">
                         <span class="sr-only">Workflow</span>
-                        <img class="h-16 w-auto sm:h-16" src="static/logo-header.png" alt="logo">
+                        <img class="h-16 w-auto sm:h-16" src="../../../static/logo-header.png" alt="logo">
                     </a>
                     <div class="-mr-2 flex items-center lg:hidden">
                         <button type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-cyan-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">

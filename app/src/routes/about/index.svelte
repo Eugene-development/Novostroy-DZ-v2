@@ -51,7 +51,7 @@
             </blockquote>
             <p>Будем рады преобразить ваш дом или квартиру!</p>
             <figure>
-                <img class="w-full rounded-lg" src="static/logo.png" alt="logo" width="1310" height="873">
+                <img class="w-full rounded-lg" src="../../../static/logo.png" alt="logo" width="1310" height="873">
             </figure>
 <!--            <h2>Everything you need to get up and running</h2>-->
 <!--            <p>Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>-->
