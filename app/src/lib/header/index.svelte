@@ -50,7 +50,7 @@
                     <a href="/contacts" class="text-base font-medium text-white hover:text-cyan-100"> Контакты </a>
                 </div>
                 <div class="hidden lg:flex lg:items-center lg:space-x-6">
-                    <a href="/" class="py-2 px-6 bg-white bg-opacity-10 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-20"> Бригадир </a>
+                    <a href="/" class="py-2 px-6 bg-white bg-opacity-20 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-30"> Заказать ремонт </a>
                 </div>
             </nav>
 
