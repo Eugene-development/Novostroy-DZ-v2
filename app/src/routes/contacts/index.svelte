@@ -1,5 +1,5 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
+<div class="bg-gradient-to-b from-white to-gray-50">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">
             <h1>

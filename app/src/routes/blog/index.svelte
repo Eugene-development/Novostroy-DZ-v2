@@ -1,4 +1,4 @@
-<div class="bg-white py-16 px-4 sm:px-6 lg:py-16 lg:px-8">
+<div class="bg-gradient-to-b from-white to-gray-50 py-16 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="text-lg  max-w-prose mx-auto">
         <h1>
             <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Блог</span>

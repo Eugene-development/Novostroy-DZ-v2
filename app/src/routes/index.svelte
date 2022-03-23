@@ -6,7 +6,7 @@
 
 
 
-<div class="bg-gradient-to-b from-white to-gray-100">
+<div class="bg-gradient-to-b from-white to-gray-50">
 	<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-16 lg:px-8 ">
 		<div class="text-lg  max-w-prose mx-auto">
 			<h1>
@@ -47,7 +47,7 @@
 
 
 		<div class="mt-12">
-			<div class="bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 sm:pt-16 rounded-lg">
+			<div class="bg-gradient-to-br from-sky-500 via-sky-800 to-sky-500 pt-12 sm:pt-16 rounded-lg">
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -61,7 +61,7 @@
 				</div>
 				<div class="mt-10 pb-12 sm:pb-16">
 					<div class="relative">
-						<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 ro rounded-b-lg"></div>
+<!--						<div class="absolute inset-0 h-1/2 bg-gradient-to-r from-sky-500 via-sky-800 to-sky-500 pt-12 ro rounded-b-lg"></div>-->
 						<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 							<div class="max-w-4xl mx-auto">
 								<dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
@@ -182,7 +182,7 @@
 
 <section class="">
 
-	<div class="py-16 bg-gradient-to-b from-white to-gray-100 overflow-hidden">
+	<div class="py-16 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
 
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
