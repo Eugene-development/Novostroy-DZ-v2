@@ -19,7 +19,7 @@
 		<section class="py-12 overflow-hidden md:py-20 lg:py-24">
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="relative">
-					<img class="mx-auto h-72" src="../../static/logo.png" alt="logo">
+					<img class="mx-auto h-72" src="/logo.png" alt="logo">
 					<blockquote class="mt-10">
 						<div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
 							<p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.&rdquo;</p>
@@ -47,7 +47,7 @@
 
 
 		<div class="mt-12">
-			<div class="bg-gradient-to-br from-sky-500 via-sky-800 to-sky-500 pt-12 sm:pt-16 rounded-lg">
+			<div class="bg-gradient-to-br from-pink-500 via-sky-800 to-pink-500 pt-12 sm:pt-16 rounded-lg">
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -191,7 +191,7 @@
 			</div>
 			<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
 				<p class="py-1 text-lg text-gray-500">Время от времени у каждого возникает необходимость облагородить свое родное помещение. Если и для вас настал такой момент, доверьте эту работу настоящим профессионалам. </p>
-				<p class="py-1 text-lg text-gray-500">Опытные квалифицированные сотрудники компании «Novostroy» выполнят работы любой сложности. Для нас совершенно нет разницы, кухня ли это, гостиная, ванная, спальня, или же вся квартира целиком.  </p>
+				<p class="py-1 text-lg text-gray-500">Опытные квалифицированные сотрудники компании «Новострой» выполнят работы любой сложности. Для нас совершенно нет разницы, кухня ли это, гостиная, ванная, спальня, или же вся квартира целиком.  </p>
 				<p class="py-1 text-lg text-gray-500">Качественный ремонт квартир осуществляется, в первую очередь, чтобы вы могли жить в максимально комфортных условиях.   </p>
 			</div>
 			<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">

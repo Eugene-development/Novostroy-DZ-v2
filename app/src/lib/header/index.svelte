@@ -21,15 +21,17 @@
 <div class="bg-white">
     <div class="relative pb-24 bg-sky-800 sm:pb-32">
         <div class="absolute inset-0">
-            <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">
-            <div class="absolute inset-0 bg-gradient-to-l from-sky-700 to-sky-900 mix-blend-multiply" aria-hidden="true"></div>
+<!--            <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">-->
+<!--            <img class="w-full h-full object-cover" src="https://avatars.mds.yandex.net/i?id=987b9678a99eb3232829d2b72dff58a0-5598196-images-thumbs&n=13&exp=1" alt="">-->
+            <img class="w-full h-full object-cover" src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614808138_178-p-fon-dlya-stroitelnogo-saita-224.jpg" alt="">
+<!--            <div class="absolute inset-0 bg-gradient-to-l from-sky-700 to-sky-900 mix-blend-multiply" aria-hidden="true"></div>-->
         </div>
-        <div class="relative z-10">
-            <nav class="relative max-w-7xl mx-auto flex items-center justify-between pt-4 pb-2 px-4 sm:px-6 lg:px-8" aria-label="Global">
+        <div class="relative z-10 bg-sky-100 bg-opacity-40">
+            <nav class="relative max-w-7xl mx-auto flex items-center justify-between p-2 px-4 sm:px-6 lg:px-8" aria-label="Global">
                 <div class="flex items-center justify-between w-full lg:w-auto">
                     <a href="/">
                         <span class="sr-only">Workflow</span>
-                        <img class="h-16 w-auto sm:h-16" src="/logo-header.png" alt="logo">
+                        <img class="h-14 w-auto sm:h-14" src="/logo-header.png" alt="logo">
                     </a>
                     <div class="-mr-2 flex items-center lg:hidden">
                         <button type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-cyan-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
@@ -42,15 +44,15 @@
                     </div>
                 </div>
                 <div class="hidden space-x-10 lg:flex lg:ml-10">
-                    <a href="/" class="text-base font-medium text-white hover:text-cyan-100"> Главная </a>
-                    <a href="/about" class="text-base font-medium text-white hover:text-cyan-100"> О нас </a>
-                    <a href="/price" class="text-base font-medium text-white hover:text-cyan-100"> Цены </a>
-                    <a href="/objects" class="text-base font-medium text-white hover:text-cyan-100"> Объекты </a>
-                    <a href="/blog" class="text-base font-medium text-white hover:text-cyan-100"> Блог </a>
-                    <a href="/contacts" class="text-base font-medium text-white hover:text-cyan-100"> Контакты </a>
+                    <a href="/" class="text-base font-medium text-sky-900 hover:text-pink-900"> Главная </a>
+                    <a href="/about" class="text-base font-medium text-sky-900 hover:text-pink-900"> О нас </a>
+                    <a href="/price" class="text-base font-medium text-sky-900 hover:text-pink-900"> Цены </a>
+                    <a href="/objects" class="text-base font-medium text-sky-900 hover:text-pink-900"> Объекты </a>
+                    <a href="/blog" class="text-base font-medium text-sky-900 hover:text-pink-900"> Блог </a>
+                    <a href="/contacts" class="text-base font-medium text-sky-900 hover:text-pink-900"> Контакты </a>
                 </div>
                 <div class="hidden lg:flex lg:items-center lg:space-x-6">
-                    <a href="/" class="py-2 px-6 bg-white bg-opacity-20 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-30"> Заказать ремонт </a>
+                    <a href="/" class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-sky-100 hover:bg-opacity-60"> Заказать ремонт </a>
                 </div>
             </nav>
 
@@ -100,9 +102,9 @@
             {/if}
         </div>
 
-        <div class="relative mt-24 max-w-md mx-auto px-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">{pageOffer}</h1>
-            <p class="mt-6 text-xl text-cyan-100 max-w-3xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
+        <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
+            <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl lg:text-5xl">{pageOffer}</h1>
+            <p class="mt-6 text-xl text-sky-900 max-w-2xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
         </div>
 
 
