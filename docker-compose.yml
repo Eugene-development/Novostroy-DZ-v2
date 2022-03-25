@@ -15,7 +15,8 @@ services:
     image: nginx:1.13
     container_name: "${COMPOSE_PROJECT_NAME}_NGINX"
     ports:
-      - "4124:80"
+      - "80:80"
+      - "443:443"
     volumes:
       - ./:/var/www
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
