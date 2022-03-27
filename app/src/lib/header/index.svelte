@@ -2,18 +2,31 @@
 
     import { page } from '$app/stores';
     let pageOffer;
+    let pageDescription;
    $: switch ($page.url.pathname) {
-        case '/': pageOffer = 'Ремонт квартир в Дзержинске'
+        case '/':
+            pageOffer = 'Ремонт квартир в Дзержинске'
+            pageDescription = 'Независимо от того, какой именно ремонт в квартире нужен, наши специалисты выполнят любые работы. Вы можете заказать ремонт одной из комнат, помещения или полностью квартиры под ключ – мы сделаем работу быстро и качественно.'
             break;
-        case '/about': pageOffer = 'О нашей компании'
+        case '/about':
+            pageOffer = 'О нашей компании'
+            pageDescription = 'Для нас главным приоритетом является довольный клиент, поэтому мы выбираем и применяем лучшие технологические решения. В результате каждый, кто обращается к нам, на собственном примере убеждается – это действительно то, чего он хотел.'
             break;
-        case '/price': pageOffer = 'Цены на услуги'
+        case '/price':
+            pageOffer = 'Цены на услуги'
+            pageDescription = 'Стоимость наших услуг зависит от объема, а также уровня сложности работ. Мы также разработали специальные программы лояльности, акции и другие бонусы, помогающие сэкономить. К тому же даже без скидок наш обычный прайс имеет доступные цены.'
             break;
-        case '/objects': pageOffer = 'Выполненные объекты'
+        case '/objects':
+            pageOffer = 'Выполненные объекты'
+            pageDescription = 'Здесь вашему вниманию представлены проекты выполненных работ по ремонту квартир разных стилей. Своей гордостью мы считаем максимальное внимание именно к деталям и мелочам, ведь именно из них состоит основа вашего будущего комфорта и удобства.'
             break;
-        case '/blog': pageOffer = 'Наш блог'
+        case '/blog':
+            pageOffer = 'Наш блог'
+            pageDescription = 'Мы собрали самые интересные статьи, из которых вы сможете узнать ценную информацию, касаемо квартирного ремонта и всем, что с ним связано. Независимо от того, что именно вас интересует, просто заходите сюда, и вы наверняка найдёте что-то интересное.'
             break;
-        case '/contacts': pageOffer = 'Связь с нами'
+        case '/contacts':
+            pageOffer = 'Связь с нами'
+            pageDescription = 'Если по каким-либо причинам у вас остались или наоборот, появились вопросы, вы можете задать их нашим специалистам по телефону, почте или через чат. Мы практически все время на связи, поэтому ответ последует в максимально короткие сроки.'
             break;
     }
 </script>
@@ -104,7 +117,7 @@
 
         <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
             <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl lg:text-5xl">{pageOffer}</h1>
-            <p class="mt-6 text-xl text-sky-900 max-w-2xl">Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.</p>
+            <p class="mt-6 text-xl text-sky-900 max-w-2xl">{pageDescription}</p>
         </div>
 
 
