@@ -14,10 +14,10 @@
         </div>
 
         <div class="max-w-2xl mx-auto py-8 sm:py-16 lg:py-24 lg:max-w-none">
-            <div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+            <div class="mt-2 lg:grid lg:grid-cols-3 lg:gap-x-6">
 
                 {#each Objects as {title, address, img}}
-                    <div class="group relative">
+                    <div class="group relative mb-8">
                         <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                             <img src="objects/{img}" alt="object" class="w-full h-full object-center object-cover">
                         </div>
