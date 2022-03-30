@@ -12,7 +12,7 @@
             <div>
                 <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Отдел по работе с клиентами</h2>
                 <div class="mt-3">
-                    <p class="text-lg text-gray-500">Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.</p>
+                    <p class="text-lg text-gray-500">Обращайтесь если вам нужна консультация по вопросам условий работы и заключения договоров.</p>
                 </div>
                 <div class="mt-9">
                     <div class="flex">
@@ -24,7 +24,7 @@
                         </div>
                         <div class="ml-3 text-base text-gray-500">
                             <p>+1 (555) 123 4567</p>
-                            <p class="mt-1">Mon-Fri 8am to 6pm PST</p>
+                            <p class="mt-1">Пн-Сб с 10-00 до 19-00</p>
                         </div>
                     </div>
                     <div class="mt-6 flex">
@@ -35,7 +35,7 @@
                             </svg>
                         </div>
                         <div class="ml-3 text-base text-gray-500">
-                            <p>support@example.com</p>
+                            <p>novobuild@yandex.ru</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
             <div class="mt-12 sm:mt-16 md:mt-0">
                 <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">Бригадир мастеров</h2>
                 <div class="mt-3">
-                    <p class="text-lg text-gray-500">Lorem, ipsum dolor sit amet. Magni, repellat error corporis doloribus similique, voluptatibus numquam quam, quae officiis facilis.</p>
+                    <p class="text-lg text-gray-500">Связь по вопросам выполнения текущих проектов, организации работ и рекламаций.</p>
                 </div>
                 <div class="mt-9">
                     <div class="flex">
@@ -55,7 +55,7 @@
                         </div>
                         <div class="ml-3 text-base text-gray-500">
                             <p>+1 (555) 123 4567</p>
-                            <p class="mt-1">Mon-Fri 8am to 6pm PST</p>
+                            <p class="mt-1">Пн-Вс с 8-00 до 21-00</p>
                         </div>
                     </div>
                     <div class="mt-6 flex">
@@ -66,7 +66,7 @@
                             </svg>
                         </div>
                         <div class="ml-3 text-base text-gray-500">
-                            <p>support@example.com</p>
+                            <p>buildnovostroi@gmail.com</p>
                         </div>
                     </div>
                 </div>
