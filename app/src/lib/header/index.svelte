@@ -65,7 +65,7 @@
                     <a href="/contacts" class="text-base font-medium text-sky-900 hover:text-pink-900"> Контакты </a>
                 </div>
                 <div class="hidden lg:flex lg:items-center lg:space-x-6">
-                    <a href="/" class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-sky-100 hover:bg-opacity-60"> Заказать ремонт </a>
+                    <a href="/" class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-sky-100 hover:bg-opacity-60"> Заказать расчёт </a>
                 </div>
             </nav>
 

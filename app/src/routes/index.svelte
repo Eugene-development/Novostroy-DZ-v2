@@ -1,9 +1,14 @@
+<script>
+	import {useMain} from "$lib/use/content/main";
+
+	const {Benefits} = useMain
+</script>
+
 <svelte:head>
 	<title>Ремонт квартир в Дзержинске</title>
 </svelte:head>
 
 <!-- This example requires Tailwind CSS v2.0+ -->
-
 
 
 <div class="bg-gradient-to-b from-white to-gray-50">
@@ -19,10 +24,10 @@
 		<section class="py-12 overflow-hidden md:py-20 lg:py-24">
 			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="relative">
-					<img class="mx-auto h-72" src="/logo.png" alt="logo">
-					<blockquote class="mt-10">
+<!--					<img class="mx-auto h-72" src="/logo.png" alt="logo">-->
+					<blockquote class="">
 						<div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-							<p>&ldquo;Благодаря огромному опыту, а также использованию самого современного оборудования и инструментов, работа будет сделана не только качественно, но и в самые короткие сроки.&rdquo;</p>
+							<p>&ldquo;Благодаря огромному опыту, а также использованию самого современного оборудования и инструментов, ремонт будет выполнен не только качественно, но и в самые короткие сроки.&rdquo;</p>
 						</div>
 						<footer class="mt-8">
 							<div class="md:flex md:items-center md:justify-center">
@@ -88,93 +93,18 @@
 
 
 		<dl class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Invite team members</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Notifications</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">List view</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Boards</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Keyboard shortcuts</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Reporting</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Calendars</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.</dd>
-			</div>
-
-			<div class="relative">
-				<dt>
-					<!-- Heroicon name: outline/check -->
-					<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-					</svg>
-					<p class="ml-9 text-lg leading-6 font-medium text-gray-900">Mobile app</p>
-				</dt>
-				<dd class="mt-2 ml-9 text-base text-gray-500">Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.</dd>
-			</div>
+			{#each Benefits as {title, text}}
+				<div class="relative">
+					<dt>
+						<!-- Heroicon name: outline/check -->
+						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+						</svg>
+						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">{title}</p>
+					</dt>
+					<dd class="mt-2 ml-9 text-base text-gray-500">{text}</dd>
+				</div>
+			{/each}
 		</dl>
 	</div>
 </div>
@@ -255,8 +185,6 @@
 	</div>
 
 
-
-
 	<!--
   This example requires Tailwind CSS v2.0+
 
@@ -288,7 +216,7 @@
 
 	<!-- This example requires Tailwind CSS v2.0+ -->
 
-<!--	<div class="bg-white">-->
+	<!--	<div class="bg-white">-->
 <!--		<div class="max-w-7xl mx-auto py-24 sm:py-32 sm:px-2 lg:px-4">-->
 <!--			<div class="max-w-2xl mx-auto px-4 lg:max-w-none">-->
 <!--				<div class="max-w-3xl">-->
@@ -297,7 +225,7 @@
 <!--					<p class="mt-4 text-gray-500">Интерьер дома это отражение характера хозяина. Выбипайте стиль ремонта по вашему желанию и живите в комфортном для вас уюте.</p>-->
 <!--				</div>-->
 
-<!--				<div class="space-y-16 pt-10 mt-10 border-t border-gray-200 sm:pt-16 sm:mt-16">-->
+	<!--				<div class="space-y-16 pt-10 mt-10 border-t border-gray-200 sm:pt-16 sm:mt-16">-->
 <!--					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">-->
 <!--						<div class="mt-6 lg:mt-0 lg:col-span-5 xl:col-span-4">-->
 <!--							<h3 class="text-2xl font-medium text-cyan-700">Минимализм</h3>-->
@@ -310,7 +238,7 @@
 <!--						</div>-->
 <!--					</div>-->
 
-<!--					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">-->
+	<!--					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">-->
 <!--						<div class="mt-6 lg:mt-0 lg:col-span-5 xl:col-span-4">-->
 <!--							<h3 class="text-2xl font-medium text-cyan-700">Лофт</h3>-->
 <!--							<p class="mt-2 text-sm text-gray-500">Everything you need, nothing you don&#039;t. This bag has the simple, contemporary design that enables you to tell everyone you know about how essentialism is the only rational way to live life.</p>-->
@@ -322,7 +250,7 @@
 <!--						</div>-->
 <!--					</div>-->
 
-<!--					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">-->
+	<!--					<div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">-->
 <!--						<div class="mt-6 lg:mt-0 lg:col-span-5 xl:col-span-4">-->
 <!--							<h3 class="text-2xl font-medium text-cyan-700">Классика</h3>-->
 <!--							<p class="mt-2 text-sm text-gray-500">Never lose your snacks again with our patent-pending snack stash pocket system. With dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new levels of efficiency and convenience.</p>-->
@@ -339,13 +267,7 @@
 <!--	</div>-->
 
 
-
-
-
-
-
 </section>
-
 
 
 <div class="bg-white">

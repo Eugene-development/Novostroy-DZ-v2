@@ -23,7 +23,7 @@
                             </svg>
                         </div>
                         <div class="ml-3 text-base text-gray-500">
-                            <p>+1 (555) 123 4567</p>
+                            <p>+7 (906) 045-64-44</p>
                             <p class="mt-1">Пн-Сб с 10-00 до 19-00</p>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                             </svg>
                         </div>
                         <div class="ml-3 text-base text-gray-500">
-                            <p>+1 (555) 123 4567</p>
+                            <p>+7 (930) 276-56-50</p>
                             <p class="mt-1">Пн-Вс с 8-00 до 21-00</p>
                         </div>
                     </div>
@@ -79,8 +79,20 @@
                             <p>buildnovostroi@gmail.com</p>
                         </div>
                     </div>
+                    <div class="mt-6 flex">
+                        <div class="flex-shrink-0">
+                            <!-- Heroicon name: outline/mail -->
+                            <svg class="h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>                        </div>
+                        <div class="ml-3 text-base text-gray-500">
+                            <a href="https://t.me/NovoStrouy">Телеграм: @NovoStrouy</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <img class="mx-auto h-96" src="/logo.png" alt="logo">
+
     </div>
 </div>
