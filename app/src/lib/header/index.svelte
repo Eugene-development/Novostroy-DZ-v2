@@ -1,4 +1,6 @@
 <script>
+    import { useHeader } from "$lib/use/content/header";
+    const { Menu } = useHeader
 
     import { page } from '$app/stores';
     let pageOffer;
@@ -57,15 +59,12 @@
                     </div>
                 </div>
                 <div class="hidden space-x-10 lg:flex lg:ml-10">
-                    <a href="/" class="text-base font-medium text-sky-900 hover:text-pink-900"> Главная </a>
-                    <a href="/about" class="text-base font-medium text-sky-900 hover:text-pink-900"> О нас </a>
-                    <a href="/price" class="text-base font-medium text-sky-900 hover:text-pink-900"> Цены </a>
-                    <a href="/objects" class="text-base font-medium text-sky-900 hover:text-pink-900"> Объекты </a>
-                    <a href="/blog" class="text-base font-medium text-sky-900 hover:text-pink-900"> Блог </a>
-                    <a href="/contacts" class="text-base font-medium text-sky-900 hover:text-pink-900"> Контакты </a>
+                    {#each Menu as {value, link}}
+                        <a href="/{link}" class="text-base font-medium text-sky-900 hover:text-pink-900"> {value} </a>
+                    {/each}
                 </div>
                 <div class="hidden lg:flex lg:items-center lg:space-x-6">
-                    <a href="/" class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-sky-100 hover:bg-opacity-60"> Заказать расчёт </a>
+                    <button class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-sky-100 hover:bg-opacity-60"> Заказать расчёт </button>
                 </div>
             </nav>
 

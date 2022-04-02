@@ -1,6 +1,11 @@
 <script>
     const now = new Date();
     const year = now.getFullYear()
+
+    import {useHeader} from "$lib/use/content/header";
+
+    const {Menu} = useHeader
+
 </script>
 
 
@@ -9,29 +14,11 @@
 <footer class="bg-white">
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
-            <div class="px-5 py-2">
-                <a href="/" class="text-base text-gray-500 hover:text-gray-900"> Главная </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/about" class="text-base text-gray-500 hover:text-gray-900"> О нас </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/price" class="text-base text-gray-500 hover:text-gray-900"> Цены </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/objects" class="text-base text-gray-500 hover:text-gray-900"> Объекты </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/blog" class="text-base text-gray-500 hover:text-gray-900"> Блог </a>
-            </div>
-
-            <div class="px-5 py-2">
-                <a href="/contacts" class="text-base text-gray-500 hover:text-gray-900"> Контакты </a>
-            </div>
+            {#each Menu as {value, link}}
+                <div class="px-5 py-2">
+                    <a href="/{link}" class="text-base text-gray-500 hover:text-gray-900"> {value} </a>
+                </div>
+            {/each}
         </nav>
 <!--        <div class="mt-8 flex justify-center space-x-6">-->
 <!--            <a href="#" class="text-gray-400 hover:text-gray-500">-->
