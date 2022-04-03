@@ -1,7 +1,16 @@
 <script>
     import {useObjects} from "$lib/use/content/objects";
     const {Objects} = useObjects
+
+    const title = 'Объекты и выполненные работы компанией Новострой'
+    const description = 'Фотографии, адреса и тип ремонта, сделанные компанией Новострой'
 </script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
+
 
 <div class="bg-gradient-to-b from-white to-gray-50">
     <div class="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">

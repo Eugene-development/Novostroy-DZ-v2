@@ -1,3 +1,14 @@
+<script>
+    const title = 'Блог нашей компании Новострой'
+    const description = 'Полезная информация и советы на тему ремонта'
+</script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
+
+
 <div class="bg-gradient-to-b from-white to-gray-50 py-16 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="text-lg  max-w-prose mx-auto">
         <h1>

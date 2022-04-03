@@ -1,7 +1,16 @@
 <script>
     import {usePrice} from "$lib/use/content/price";
     const {Price} = usePrice
+
+    const title = 'Цены на работы компании Новострой'
+    const description = 'Стоимость работ на выполнение ремонта для обычгой и льготной категории граждан'
 </script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
+
 
 <div class="bg-gradient-to-b from-white to-gray-50">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">

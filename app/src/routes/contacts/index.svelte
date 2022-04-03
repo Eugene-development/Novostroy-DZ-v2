@@ -1,4 +1,13 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
+<script>
+    const title = 'Контакты с нашей компанией Новострой'
+    const description = 'Связь с нами по телефону, почте или мессенджеру'
+</script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
+
 <div class="bg-gradient-to-b from-white to-gray-50">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="text-lg max-w-prose mx-auto">

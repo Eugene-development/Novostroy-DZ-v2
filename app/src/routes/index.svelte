@@ -2,10 +2,13 @@
 	import {useMain} from "$lib/use/content/main";
 
 	const {Benefits} = useMain
+	const title = 'Ремонт квартир в Дзержинске и области'
+	const description = 'Выполняем работы по ремонту квартир в Дзержинске по проиемлемым ценам'
 </script>
 
 <svelte:head>
-	<title>Ремонт квартир в Дзержинске</title>
+	<title>{title}</title>
+	<meta name="description" content="{description}">
 </svelte:head>
 
 <!-- This example requires Tailwind CSS v2.0+ -->

@@ -1,3 +1,14 @@
+<script>
+    const title = 'О нашей компании Новострой'
+    const description = 'Информация о работе нашей компании'
+</script>
+
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
+
+
 <div class="relative py-16 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
     <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
