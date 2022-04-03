@@ -18,8 +18,8 @@
     <div class="max-w-max lg:max-w-7xl mx-auto">
         <div class="relative z-10 mb-8 md:mb-2 md:px-6">
             <div class="text-base max-w-prose lg:max-w-none">
-                <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>
-                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A better way to send money</p>
+                <h2 class="leading-6 text-sky-600 font-semibold tracking-wide uppercase">Пост от 20 мая 2022</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Декоративная отделка – подарите своей квартире вторую жизнь</p>
             </div>
         </div>
         <div class="relative">
@@ -42,18 +42,27 @@
             <div class="relative md:bg-white md:p-6">
                 <div class="lg:grid lg:grid-cols-2 lg:gap-6">
                     <div class="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
-                        <p>Ultrices ultricies a in odio consequat egestas rutrum. Ut vitae aliquam in ipsum. Duis nullam placerat cursus risus ultrices nisi, vitae tellus in. Qui non fugiat aut minus aut rerum. Perspiciatis iusto mollitia iste minima soluta id.</p>
-                        <p>Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id dignissim eget. Est augue <a href="#">maecenas</a> risus nulla ultrices congue nunc tortor. Eu leo risus porta integer suspendisse sed sit ligula elit.</p>
-                        <ol role="list">
-                            <li>Integer varius imperdiet sed interdum felis cras in nec nunc.</li>
-                            <li>Quam malesuada odio ut sit egestas. Elementum at porta vitae.</li>
-                        </ol>
-                        <p>Amet, eu nulla id molestie quis tortor. Auctor erat justo, sed pellentesque scelerisque interdum blandit lectus. Nec viverra amet ac facilisis vestibulum. Vestibulum purus nibh ac ultricies congue.</p>
+                        <p>В настоящее время вы можете воспользоваться уже готовыми нашими идеями, как и чем, украсить свое жилье, или же спланировать все самостоятельно. Главное – это определиться, каких именно результатов вы хотите добиться, и максимально использовать собственную фантазию.</p>
+                        <h3>Что именно относится к декоративной отделке?</h3>
+                        <p>Чтобы подчеркнуть чувство собственного вкуса и стиля, вы можете использовать в помещении следующие элементы декора:</p>
+                        <ul>
+                            <li>картины</li>
+                            <li>фрески</li>
+                            <li>витражи</li>
+                            <li>художественную роспись на стенах</li>
+                            <li>лепнину</li>
+                            <li>камины</li>
+                            <li>эксклюзивную мебель</li>
+                            <li>собственные поделки</li>
+                            <li>многое-многое другое</li>
+                        </ul>
                     </div>
                     <div class="mt-6 prose prose-indigo prose-lg text-gray-500 lg:mt-0">
-                        <p>Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id dignissim eget. Est augue maecenas risus nulla ultrices congue nunc tortor.</p>
-                        <p>Eu leo risus porta integer suspendisse sed sit ligula elit. Elit egestas lacinia sagittis pellentesque neque dignissim vulputate sodales. Diam sed mauris felis risus, ultricies mauris netus tincidunt. Mauris sit eu ac tellus nibh non eget sed accumsan. Viverra ac sed venenatis pulvinar elit. Cras diam quis tincidunt lectus. Non mi vitae, scelerisque felis nisi, netus amet nisl.</p>
-                        <p>Eu eu mauris bibendum scelerisque adipiscing et. Justo, elementum consectetur morbi eros, posuere ipsum tortor. Eget cursus massa sed velit feugiat sed ut. Faucibus eros mauris morbi aliquam nullam. Scelerisque elementum sit magna ullamcorper dignissim pretium.</p>
+                        <p>Это лишь небольшая часть материалов, с помощью которых можно буквально преобразить любое помещение. Множество хозяев сегодня, к примеру, останавливаются на отделке из натурального дерева. Такое решение выглядит не только стильно, но также очень солидно.</p>
+                        <p>Можно использовать разные варианты отделки квартиры, однако в любом случае нужно доверить столь ответственную работу только профессионалам. Несмотря на то, что данный вид работ может и не такой ответственный, как, например, установка сантехнических труб или монтаж электропроводки. Однако нужно понимать – если вы действительно цените собственный комфорт и привыкли жить только в лучших условиях, только специалисты могут придать интерьеру вашей квартиры настоящую гармонию и воплотить в жизнь все ваши фантазии.</p>
+                        <h3>Сам себе хозяин</h3>
+                        <p>Вы и только вы решаете, какие материалы и декоративные элементы будут использоваться, тем более что сегодня существует огромное количество вариантов на любой вкус. Нужно только принимать во внимание тот факт, что каждый выбранный вами элемент обязательно должен соответствовать стилю интерьера помещения. Только в этом случае можно достигнуть настоящей гармонии.</p>
+
                     </div>
                 </div>
                 <div class="mt-8 inline-flex rounded-md shadow">
