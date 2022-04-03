@@ -16,9 +16,9 @@
 		<div class="text-lg  max-w-prose mx-auto">
 			<h1>
 				<span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Главная</span>
-				<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт под ключ или частичный ремонт квартиры от ремонтной компании "Новострой"</span>
+				<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт квартир под ключ или <br> частичный ремонт</span>
 			</h1>
-			<p class="mt-3 max-w-3xl text-lg text-gray-900 text-center">Воспользуйтесь нашим специальным предложением. Ведь бонусы и подарки будут для вас приятным дополнением!</p>
+			<p class="mt-3 max-w-3xl text-lg text-gray-900 text-center">Компания "Новострой" предлагает услуги по ремонту квартир в Дзержинске и Нижегородской области.</p>
 
 		</div>
 
