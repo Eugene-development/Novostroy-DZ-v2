@@ -16,43 +16,40 @@
 		<div class="text-lg  max-w-prose mx-auto">
 			<h1>
 				<span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Главная</span>
-				<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Компания "Новострой"</span>
+				<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт под ключ или частичный ремонт квартиры от строительно-ремонтной компании "Новострой"</span>
 			</h1>
+			<p class="mt-3 max-w-3xl text-lg text-gray-900 text-center">Воспользуйтесь нашим специальным предложением. Ведь бонусы и подарки будут для вас приятным дополнением!</p>
+
 		</div>
 
-		<!-- This example requires Tailwind CSS v2.0+ -->
-		<section class="py-12 overflow-hidden md:py-20 lg:py-24">
-			<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="relative">
-<!--					<img class="mx-auto h-72" src="/logo.png" alt="logo">-->
-					<blockquote class="">
-						<div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-							<p>&ldquo;Благодаря огромному опыту, а также использованию самого современного оборудования и инструментов, ремонт будет выполнен не только качественно, но и в самые короткие сроки.&rdquo;</p>
-						</div>
-						<footer class="mt-8">
-							<div class="md:flex md:items-center md:justify-center">
-								<div class="md:flex-shrink-0">
-									<img class="mx-auto h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-								</div>
-								<div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-									<div class="text-base font-medium text-gray-900">Иванов Иван</div>
-
-									<svg class="hidden md:block mx-1 h-5 w-5 text-sky-600" fill="currentColor" viewBox="0 0 20 20">
-										<path d="M11 0h3L9 20H6l5-20z" />
-									</svg>
-
-									<div class="text-base font-medium text-gray-500">Генеральный директор</div>
-								</div>
+		<div class="">
+			<div class="max-w-2xl mx-auto px-4 py-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+				<!-- Details section -->
+				<section aria-labelledby="details-heading">
+					<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+						<div>
+							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+								<img src="https://s3-us-west-2.amazonaws.com/selroclientsprod1/6601/17661_3cb0f91a-b74f-44fb-9c6f-8b74aae68cba0.jpg" alt="Drawstring top with elastic loop closure and textured interior padding." class="w-full h-96 object-center object-cover">
 							</div>
-						</footer>
-					</blockquote>
-				</div>
+							<p class="mt-8 text-base text-gray-800">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
+						</div>
+						<div>
+							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+								<img src="https://avatars.mds.yandex.net/get-zen_doc/1855206/pub_5fbfa876b1f92632ba9f9417_5fc01175b1f92632ba572f99/scale_1200" alt="Front zipper pouch with included key ring." class="w-full h-96 object-center object-cover">
+							</div>
+							<p class="mt-8 text-base text-gray-800">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
+						</div>
+					</div>
+				</section>
 			</div>
-		</section>
+		</div>
+
+
+
 
 
 		<div class="mt-12">
-			<div class="bg-gradient-to-br from-pink-500 via-sky-800 to-pink-500 pt-12 sm:pt-16 rounded-lg">
+			<div class="bg-gradient-to-br from-sky-500 via-sky-800 to-pink-800 pt-12 sm:pt-16 rounded-lg">
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
