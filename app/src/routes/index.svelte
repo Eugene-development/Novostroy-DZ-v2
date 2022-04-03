@@ -174,7 +174,7 @@
 								<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-purple-300" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
 							</div>
 							<span class="relative ml-4 text-sky-200 font-semibold leading-6 sm:ml-24 sm:pl-1">
-							  <p class="text-white font-semibold sm:inline">Алёна Попугаева</p>
+							  <p class="text-white font-semibold sm:inline">Татьяна Демидова</p>
 							  <p class="sm:inline"> - Старший менеджер</p>
 							</span>
 						</cite>

@@ -1,19 +1,13 @@
-<!--
-  This example requires Tailwind CSS v2.0+
+<script>
+    const title = 'Блог | Декоративная отделка'
+    const description = 'Декоративная отделка – подарите своей квартире вторую жизнь'
+</script>
 
-  This example requires some changes to your config:
+<svelte:head>
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+</svelte:head>
 
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
--->
 <div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
     <div class="max-w-max lg:max-w-7xl mx-auto">
         <div class="relative z-10 mb-8 md:mb-2 md:px-6">

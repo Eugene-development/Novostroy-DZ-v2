@@ -42,7 +42,7 @@
                 </p>
                 <a href="#" class="mt-2 block">
                     <p class="text-xl font-semibold text-gray-900">Декоротивная отделка</p>
-                    <p class="mt-3 text-base text-gray-500">Многих людей часто что-то не устраивает в своем жилище, но декоративная отделка квартир раз и навсегда решит эту проблему. Чаще всего именно отсутствие оригинального декора делает помещение заурядным и ничем не отличающимся от остальных.</p>
+                    <p class="mt-3 text-base text-gray-500">Многих людей часто что-то не устраивает в своем жилище, но декоративная отделка квартир раз и навсегда решит эту проблему. Чаще всего именно отсутствие оригинального декора делает помещение заурядным и ничем ...</p>
                 </a>
                 <div class="mt-3">
                     <a sveltekit:noscroll href="/blog/post/1" class="text-base font-semibold text-sky-600 hover:text-sky-500"> Читать полностью </a>
@@ -50,11 +50,11 @@
             </div>
             <div>
                 <p class="text-sm text-gray-500">
-                    <time datetime="2020-03-16">20 марта, 2022</time>
+                    <time datetime="2020-03-16">4 апреля, 2022</time>
                 </p>
                 <a href="#" class="mt-2 block">
-                    <p class="text-xl font-semibold text-gray-900">Boost your conversion rate</p>
-                    <p class="mt-3 text-base text-gray-500">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+                    <p class="text-xl font-semibold text-gray-900">Паркетная доска</p>
+                    <p class="mt-3 text-base text-gray-500">Во время квартирного ремонта, даже используя, самые дорогие и качественные материалы, их всегда можно испортить, если нет соответственного опыта и квалификации. Ну а если речь идет о таком важном деле, как укладка ...</p>
                 </a>
                 <div class="mt-3">
                     <a sveltekit:noscroll href="/blog/post/2" class="text-base font-semibold text-sky-600 hover:text-sky-500"> Читать полностью </a>
