@@ -32,13 +32,13 @@
 					<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
 						<div>
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-								<img src="https://s3-us-west-2.amazonaws.com/selroclientsprod1/6601/17661_3cb0f91a-b74f-44fb-9c6f-8b74aae68cba0.jpg" alt="Drawstring top with elastic loop closure and textured interior padding." class="w-full h-96 object-center object-cover">
+								<img src="objects/01.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
 							</div>
 							<p class="mt-8 text-base text-gray-800">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
 						</div>
 						<div>
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-								<img src="https://avatars.mds.yandex.net/get-zen_doc/1855206/pub_5fbfa876b1f92632ba9f9417_5fc01175b1f92632ba572f99/scale_1200" alt="Front zipper pouch with included key ring." class="w-full h-96 object-center object-cover">
+								<img src="objects/06.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
 							</div>
 							<p class="mt-8 text-base text-gray-800">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
 						</div>
@@ -159,7 +159,7 @@
 						</defs>
 						<rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
 					</svg>
-					<blockquote class="relative bg-gradient-to-b from-slate-100 via-slate-100 to-pink-400 rounded-lg shadow-lg">
+					<blockquote class="relative bg-gradient-to-b from-slate-100 via-slate-100 to-sky-700 rounded-lg shadow-lg">
 						<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
 							<img src="/logo.png" alt="logo" class="h-16">
 							<div class="relative text-lg text-gray-700 font-medium mt-8">
@@ -274,11 +274,11 @@
 	<div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
 		<div class="relative rounded-lg overflow-hidden lg:h-96">
 			<div class="absolute inset-0">
-				<img src="https://static.tildacdn.com/tild6439-3537-4432-a537-313630626433/2efd3b42642e.jpg" alt="" class="w-full h-full object-center object-cover">
+				<img src="objects/06.jpg" alt="" class="w-full h-full object-center object-cover">
 			</div>
 			<div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
 			<div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
-			<div class="absolute inset-x-0 bottom-0 bg-sky-900 bg-opacity-50 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
+			<div class="absolute inset-x-0 bottom-0 bg-red-800 bg-opacity-70 p-6 rounded-bl-lg rounded-br-lg backdrop-filter backdrop-blur sm:flex sm:items-center sm:justify-between lg:inset-y-0 lg:inset-x-auto lg:w-96 lg:rounded-tl-lg lg:rounded-br-none lg:flex-col lg:items-start">
 				<div>
 					<h2 class="text-xl font-bold text-white">Бесплатная услуга</h2>
 					<p class="mt-1 text-sm text-gray-300">Консультация на объекте для получения более подробной информации и рекомендуемых работах.</p>
