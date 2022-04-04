@@ -52,7 +52,7 @@
 
 
 		<div class="mt-12">
-			<div class="bg-gradient-to-br from-sky-500 via-sky-800 to-pink-800 pt-12 sm:pt-16 rounded-lg">
+			<div class="bg-gradient-to-br from-sky-500 via-sky-800 to-pink-700 pt-12 sm:pt-16 rounded-lg">
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
