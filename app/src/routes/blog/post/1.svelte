@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="mt-8 inline-flex rounded-md shadow">
-                    <button  class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700"> Заказать рассчёт ремонта </button>
+                    <a href="/blog" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-600 hover:bg-sky-700"> Вернуться в блог </a>
                 </div>
             </div>
         </div>
