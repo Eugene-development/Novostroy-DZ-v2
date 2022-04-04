@@ -159,7 +159,7 @@
 						</defs>
 						<rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
 					</svg>
-					<blockquote class="relative bg-white rounded-lg shadow-lg">
+					<blockquote class="relative bg-gradient-to-b from-slate-100 via-slate-100 to-pink-400 rounded-lg shadow-lg">
 						<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
 							<img src="/logo.png" alt="logo" class="h-16">
 							<div class="relative text-lg text-gray-700 font-medium mt-8">
