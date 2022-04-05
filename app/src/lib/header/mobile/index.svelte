@@ -2,7 +2,7 @@
     import {useHeader} from "$lib/use/content/header";
     import {formMeasurement, mobileMenu} from '../../../stores.js';
 
-    const {menu} = useHeader;
+    const {Menu} = useHeader;
     import {useVisible} from "$lib/use/functions/visible";
 
     const {invert} = useVisible;
@@ -28,14 +28,12 @@
     To: "opacity-0 scale-95"
 -->
 
-{#if visibleMobileMenu}
 
     <div class="absolute z-20 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden bg-gray-50">
         <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <a on:click={changeVisibleMobileMenu} href="/">
-                    <img class="h-8 w-auto" src="/Logo/logo1.svg"
-                         alt="main">
+                    <img class="h-8 w-auto" src="/logo-header.png" alt="main">
                 </a>
 
                 <div class="-mr-2">
@@ -52,7 +50,7 @@
             </div>
             <div class="pt-5 pb-2">
                 <div class="px-2 space-y-1">
-                    {#each menu as { value, link }, i}
+                    {#each Menu as { value, link }, i}
                         <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
                     {:else}
                         <p>Нет данных!</p>
@@ -60,7 +58,7 @@
                 </div>
                 <div class="mt-6 px-5">
                     <button on:click={changeVisibleFormMeasurement} type="button"
-                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-green-500 to-cyan-600 text-white font-medium hover:from-green-600 hover:to-cyan-700">Получить консультацию</button>
+                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-sky-500 to-sky-700 text-white font-medium hover:from-sky-700 hover:to-sky-500">Заказать рассчёт</button>
                 </div>
                 <div class="mt-2 px-5">
                     <p class="text-center text-sm font-medium text-gray-500">Услуга бесплатная</p>
@@ -68,4 +66,3 @@
             </div>
         </div>
     </div>
-{/if}
