@@ -35,7 +35,7 @@
         <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <a on:click={changeVisibleMobileMenu} href="/">
-                    <img class="h-12 w-auto" src="/logo-header.png" alt="main">
+                    <img class="h-16 w-auto" src="/logo-header.png" alt="main">
                 </a>
 
                 <div class="-mr-2">
