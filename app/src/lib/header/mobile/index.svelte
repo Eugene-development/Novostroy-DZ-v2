@@ -3,7 +3,7 @@
     import {formMeasurement, mobileMenu} from '../../../stores.js';
 
     const {menu} = useHeader;
-    import {useVisible} from "$lib/use/visible";
+    import {useVisible} from "$lib/use/functions/visible";
 
     const {invert} = useVisible;
 

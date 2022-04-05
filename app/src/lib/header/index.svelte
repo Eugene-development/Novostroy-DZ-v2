@@ -1,11 +1,24 @@
 <script>
-    import { useHeader } from "$lib/use/content/header";
-    const { Menu } = useHeader
 
-    import { page } from '$app/stores';
+    import {useHeader} from "$lib/use/content/header";
+    import {page} from '$app/stores';
+
+    const {Menu} = useHeader
+
+    import MobileMenu from "./mobile/index.svelte";
+    import { useVisible } from "$lib/use/functions/visible";
+
+    import { mobileMenu} from "../../stores.js";
+    const { invert } = useVisible;
+
+    const changeVisibleMobileMenu = () => mobileMenu.update(invert);
+    let visibleMobileMenu;
+    mobileMenu.subscribe(value => visibleMobileMenu = value);
+
+
     let pageOffer;
     let pageDescription;
-   $: switch ($page.url.pathname) {
+    $: switch ($page.url.pathname) {
         case '/':
             pageOffer = 'Ремонт квартир в Дзержинске'
             pageDescription = 'Независимо от того, какой именно ремонт в квартире нужен, наши специалисты выполнят любые работы. Вы можете заказать ремонт одной из комнат, помещения или полностью квартиры под ключ – мы сделаем работу быстро и качественно.'
@@ -49,12 +62,14 @@
             <nav class="relative max-w-7xl mx-auto flex items-center justify-between p-2 px-4 sm:px-6 lg:px-8" aria-label="Global">
                 <div class="flex items-center justify-between w-full lg:w-auto">
                     <a href="/">
-                        <span class="sr-only">Workflow</span>
+                        <span class="sr-only">Novostroy</span>
                         <img class="h-14 w-auto sm:h-14" src="/logo-header.png" alt="logo">
                     </a>
                     <div class="-mr-2 flex items-center lg:hidden">
-                        <button type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-cyan-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
+                        <button on:click={changeVisibleMobileMenu} type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-sky-600 hover:text-sky-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
+                            <span class="mx-2">Меню</span>
+
                             <!-- Heroicon name: outline/menu -->
                             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
