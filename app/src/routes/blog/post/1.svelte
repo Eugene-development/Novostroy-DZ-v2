@@ -8,7 +8,7 @@
     <meta name="description" content="{description}">
 </svelte:head>
 
-<div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+<div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
     <div class="max-w-max lg:max-w-7xl mx-auto">
         <div class="relative z-10 mb-8 md:mb-2 md:px-6">
             <div class="text-base max-w-prose lg:max-w-none">
@@ -33,7 +33,7 @@
                 </defs>
                 <rect width="404" height="384" fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
             </svg>
-            <div class="relative md:bg-white md:p-6">
+            <div class="relative bg-gradient-to-b from-white via-white to-gray-50 md:p-6">
                 <div class="lg:grid lg:grid-cols-2 lg:gap-6">
                     <div class="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
                         <p>В настоящее время вы можете воспользоваться уже готовыми нашими идеями, как и чем, украсить свое жилье, или же спланировать все самостоятельно. Главное – это определиться, каких именно результатов вы хотите добиться, и максимально использовать собственную фантазию.</p>

@@ -60,7 +60,7 @@
                 </div>
                 <div class="mt-6 px-5">
                     <button on:click={changeVisibleFormMeasurement} type="button"
-                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-sky-500 to-sky-700 text-white font-medium hover:from-sky-700 hover:to-sky-500">Заказать рассчёт</button>
+                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-sky-500 to-sky-700 text-white font-medium hover:from-sky-700 hover:to-sky-500">Заказать расчёт</button>
                 </div>
                 <div class="mt-2 px-5">
                     <p class="text-center text-sm font-medium text-gray-500">Услуга бесплатная</p>

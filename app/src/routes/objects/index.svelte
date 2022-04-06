@@ -12,7 +12,7 @@
 </svelte:head>
 
 
-<div class="bg-gradient-to-b from-white to-gray-50">
+<div class="bg-gradient-to-b from-white via-white to-gray-50">
     <div class="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
 
         <div class="text-lg max-w-prose mx-auto">

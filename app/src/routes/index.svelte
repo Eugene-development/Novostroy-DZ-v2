@@ -14,7 +14,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 
 
-<div class="bg-gradient-to-b from-white to-gray-50">
+<div class="bg-gradient-to-b from-white via-white to-gray-50">
 	<div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-16 lg:px-8 ">
 		<div class="text-lg  max-w-prose mx-auto">
 			<h1>
@@ -112,7 +112,7 @@
 
 <section class="">
 
-	<div class="py-16 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
+	<div class="py-16 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
 
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
@@ -270,7 +270,7 @@
 </section>
 
 
-<div class="bg-white">
+<div class="bg-gradient-to-b from-white via-white to-gray-50">
 	<div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
 		<div class="relative rounded-lg overflow-hidden lg:h-96">
 			<div class="absolute inset-0">
