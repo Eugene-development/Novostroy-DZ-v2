@@ -134,8 +134,8 @@
         </div>
 
         <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl lg:text-5xl">{pageOffer}</h1>
-            <p class="mt-6 text-xl text-sky-900 max-w-2xl">{pageDescription}</p>
+            <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl lg:text-5xl ">{pageOffer}</h1>
+            <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50">{pageDescription}</p>
         </div>
 
 
