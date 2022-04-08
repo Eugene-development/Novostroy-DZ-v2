@@ -29,7 +29,7 @@
             break;
         case '/price':
             pageOffer = 'Цены на услуги'
-            pageDescription = 'Стоимость наших услуг зависит от объема, а также уровня сложности работ. Мы также разработали специальные программы лояльности, акции и другие бонусы, помогающие сэкономить. К тому же даже без скидок наш обычный прайс имеет доступные цены.'
+            pageDescription = 'Стоимость наших услуг зависит от объема, а также сложности работ. Мы также разработали специальные программы лояльности, акции и другие бонусы, помогающие сэкономить. К тому же даже без скидок наш обычный прайс имеет доступные цены.'
             break;
         case '/objects':
             pageOffer = 'Выполненные объекты'
@@ -50,7 +50,18 @@
     }
 </script>
 
-<div class="bg-white">
+<div class="relative bg-sky-800">
+    <div class="max-w-7xl mx-auto py-3 lg:px-8">
+        <div class="text-center">
+            <div class="font-medium text-white text-sm px-8">
+                <span>Скидки постоянным клиентам - Работаем круглосуточно - Требуются мастера - Качетво работ гарантируем</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header >
+
     <div class="relative pb-24 sm:pb-32">
         <div class="absolute inset-0">
 <!--            <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">-->
@@ -134,7 +145,7 @@
         </div>
 
         <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-5xl lg:text-5xl ">{pageOffer}</h1>
+            <h1 class="text-3xl font-bold tracking-tight text-sky-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
             <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50">{pageDescription}</p>
         </div>
 
@@ -142,4 +153,4 @@
     </div>
     <MobileMenu/>
 
-</div>
+</header>
