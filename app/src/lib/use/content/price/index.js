@@ -2,6 +2,7 @@ const Price = [
     {
         id: 1,
         name: 'Косметический',
+        description: 'Стоимость косметического ремонта',
         price: 2500,
         work: [
             {
@@ -45,6 +46,7 @@ const Price = [
     {
         id: 1,
         name: 'Капитальный',
+        description: 'Стоимость капитального ремонта',
         price: 3500,
         work: [
             {
@@ -88,6 +90,7 @@ const Price = [
     {
         id: 1,
         name: 'Элитный',
+        description: 'Стоимость элитного ремонта',
         price: 4500,
         work: [
             {
