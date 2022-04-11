@@ -54,7 +54,7 @@
     <div class="max-w-7xl mx-auto py-3 lg:px-8">
         <div class="text-center">
             <div class="font-medium text-white text-sm px-8">
-                <span>Скидки постоянным клиентам - Работаем круглосуточно - Требуются мастера - Качетво работ гарантируем</span>
+                <span>Скидки постоянным клиентам - Работаем круглосуточно - Требуются мастера - Качество работ гарантируем</span>
             </div>
         </div>
     </div>
