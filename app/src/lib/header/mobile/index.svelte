@@ -31,8 +31,8 @@
 {#if (visibleMobileMenu)}
 
 
-    <div class="absolute z-20 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden bg-gray-50">
-        <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden">
+    <div class="absolute z-20 top-0 inset-x-0 p-2 mt-16 transition transform origin-top lg:hidden ">
+        <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden bg-gray-50">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <a on:click={changeVisibleMobileMenu} href="/">
                     <img class="h-16 w-auto" src="/logo-header.png" alt="main">
@@ -53,18 +53,18 @@
             <div class="pt-5 pb-2">
                 <div class="px-2 space-y-1">
                     {#each Menu as { value, link }, i}
-                        <a class="block px-3 py-2 rounded-md text-base text-center font-medium text-gray-700 hover:text-gray-100 hover:bg-sky-500" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
+                        <a class="block px-3 py-2 rounded-md text-base text-center font-medium text-gray-700 hover:text-gray-100 bg-slate-100 hover:bg-sky-500" href="/{link}" on:click={changeVisibleMobileMenu}>{value}</a>
                     {:else}
                         <p>Нет данных!</p>
                     {/each}
                 </div>
                 <div class="mt-6 px-5">
                     <button on:click={changeVisibleFormMeasurement} type="button"
-                            class="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-sky-500 to-sky-700 text-white font-medium hover:from-sky-700 hover:to-sky-500">Заказать расчёт</button>
+                            class="block text-center w-full py-3 rounded-md shadow bg-gradient-to-r from-sky-500 to-sky-700 text-white font-medium hover:from-sky-700 hover:to-sky-500">Заказать расчёт (услуга бесплатная)</button>
                 </div>
-                <div class="mt-2 px-5">
-                    <p class="text-center text-sm font-medium text-gray-500">Услуга бесплатная</p>
-                </div>
+<!--                <div class="mt-2 px-5">-->
+<!--                    <p class="text-center text-sm font-medium text-gray-500">Услуга бесплатная</p>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
