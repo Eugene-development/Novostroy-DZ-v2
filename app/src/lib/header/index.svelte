@@ -94,7 +94,7 @@
                     {/each}
                 </div>
                 <div class="hidden lg:flex lg:items-center lg:space-x-6">
-                    <button class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-sky-100 hover:bg-opacity-60"> Заказать расчёт </button>
+                    <button class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-slate-100 hover:bg-opacity-60"> Заказать расчёт </button>
                 </div>
             </nav>
 
