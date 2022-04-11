@@ -25,14 +25,14 @@
         <div class="max-w-2xl mx-auto py-8 sm:py-16 lg:py-24 lg:max-w-none">
             <div class="mt-2 lg:grid lg:grid-cols-3 lg:gap-x-6">
 
-                {#each Objects as {title, address, img}}
+                {#each Objects as {id, title, address, img}}
                     <div class="group relative mb-8">
                         <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                             <img src="objects/{img}" alt="object" class="w-full h-full object-center object-cover">
                         </div>
                         <h3 class="mt-6 text-sm text-gray-500">
                                 <span class="absolute inset-0"></span>
-                                Адрес объекта:
+                                Адрес объекта:{id}
                         </h3>
                         <p class="text-base font-semibold text-gray-900">{address}</p>
                     </div>

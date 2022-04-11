@@ -41,6 +41,18 @@ const Objects = [
         address: 'п-т Ленина, 84',
         img: '7.jpg'
     },
+    {
+        id: 8,
+        title: 'Двухкомнатная квартира',
+        address: 'п-т Ленина, 84',
+        img: '8.jpg'
+    },
+    {
+        id: 9,
+        title: 'Двухкомнатная квартира',
+        address: 'п-т Ленина, 84',
+        img: '08.jpg'
+    },
 ]
 
 export const useObjects = {
