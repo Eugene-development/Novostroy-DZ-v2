@@ -50,7 +50,7 @@
     }
 </script>
 
-<div class="relative bg-sky-800">
+<div class="relative bg-sky-900">
     <div class="max-w-7xl mx-auto py-3 lg:px-8">
         <div class="text-center">
             <div class="font-medium text-white text-sm px-8">
@@ -146,7 +146,7 @@
 
         <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
             <h1 class="text-3xl font-bold tracking-tight text-sky-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
-            <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50">{pageDescription}</p>
+            <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50 rounded-md">{pageDescription}</p>
         </div>
 
 

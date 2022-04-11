@@ -32,13 +32,13 @@
 					<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
 						<div>
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-								<img src="objects/01.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
+								<img src="objects/4.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
 							</div>
 							<p class="mt-8 text-base text-gray-800">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
 						</div>
 						<div>
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-								<img src="objects/06.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
+								<img src="objects/9.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
 							</div>
 							<p class="mt-8 text-base text-gray-800">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
 						</div>
@@ -52,7 +52,7 @@
 
 
 		<div class="mt-12">
-			<div class="bg-gradient-to-br from-sky-500 via-sky-800 to-pink-700 pt-12 sm:pt-16 rounded-lg">
+			<div class="bg-gradient-to-br from-sky-600 via-sky-800 to-pink-700 pt-12 sm:pt-16 rounded-lg">
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -274,7 +274,7 @@
 	<div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl">
 		<div class="relative rounded-lg overflow-hidden lg:h-96">
 			<div class="absolute inset-0">
-				<img src="objects/06.jpg" alt="" class="w-full h-full object-center object-cover">
+				<img src="promo/men.jpg" alt="" class="w-full h-full object-center object-cover">
 			</div>
 			<div aria-hidden="true" class="relative w-full h-96 lg:hidden"></div>
 			<div aria-hidden="true" class="relative w-full h-32 lg:hidden"></div>
