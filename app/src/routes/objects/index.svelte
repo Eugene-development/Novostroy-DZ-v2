@@ -18,7 +18,7 @@
         <div class="text-lg max-w-prose mx-auto">
             <h1>
                 <span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Объекты</span>
-                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Выполненные работы</span>
+                <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Наши работы</span>
             </h1>
         </div>
 
@@ -32,7 +32,7 @@
                         </div>
                         <h3 class="mt-6 text-sm text-gray-500">
                                 <span class="absolute inset-0"></span>
-                                Адрес объекта:{id}
+                                Адрес объекта:-{id}
                         </h3>
                         <p class="text-base font-semibold text-gray-900">{address}</p>
                     </div>
