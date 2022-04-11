@@ -25,7 +25,7 @@
         <div class="sm:flex sm:flex-col sm:align-center">
             <div class="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8">
                 <button type="button" class="relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 sm:w-auto sm:px-8">Базовые цены</button>
-                <button type="button" class="ml-0.5 relative w-1/2 border border-transparent rounded-md py-2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 sm:w-auto sm:px-8">Льготные цены</button>
+<!--                <button type="button" class="ml-0.5 relative w-1/2 border border-transparent rounded-md py-2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 sm:w-auto sm:px-8">Льготные цены</button>-->
             </div>
         </div>
         <div class="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-3">

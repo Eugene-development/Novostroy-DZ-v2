@@ -8,7 +8,7 @@
     <meta name="description" content="{description}">
 </svelte:head>
 
-<div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-white to-gray-500 overflow-hidden">
+<div class="py-16 xl:py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
     <div class="max-w-max lg:max-w-7xl mx-auto">
         <div class="relative z-10 mb-8 md:mb-2 md:px-6">
             <div class="text-base max-w-prose lg:max-w-none">
@@ -33,7 +33,7 @@
                 </defs>
                 <rect width="404" height="384" fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)" />
             </svg>
-            <div class="relative bg-gradient-to-b from-white via-white to-gray-500 md:p-6">
+            <div class="relative bg-gradient-to-b from-white via-white to-gray-50 md:p-6">
                 <div class="lg:grid lg:grid-cols-2 lg:gap-6">
                     <div class="prose prose-indigo prose-lg text-gray-500 lg:max-w-none">
                         <p>Во время квартирного ремонта, даже используя, самые дорогие и качественные материалы, их всегда можно испортить, если нет соответственного опыта и квалификации. Ну а если речь идет о таком важном деле, как укладка паркетной доски, то здесь нужно быть особенно внимательным перед тем, как принимать решение. Дело в том, что если вы возьметесь за это дело самостоятельно, но напортачите, это обойдется в кругленькую сумму. Именно поэтому правильнее будет воспользоваться услугами профессионалов.</p>
