@@ -31,10 +31,8 @@
                             <img src="objects/{img}" alt="object" class="w-full h-full object-center object-cover">
                         </div>
                         <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
                                 <span class="absolute inset-0"></span>
-                                {title}
-                            </a>
+                                Адрес объекта:
                         </h3>
                         <p class="text-base font-semibold text-gray-900">{address}</p>
                     </div>
