@@ -7,7 +7,6 @@
     const {Menu} = useHeader
 
     import MobileMenu from "./mobile/index.svelte";
-    import { useVisible } from "$lib/use/functions/visible";
 
     import { mobileMenu} from "../../stores.js";
     const { invert } = useVisible;
@@ -15,6 +14,17 @@
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
     let visibleMobileMenu;
     mobileMenu.subscribe(value => visibleMobileMenu = value);
+
+    import { formCalculation } from "../../stores.js";
+    import { useVisible } from "$lib/use/functions/visible";
+
+    import axios from "axios";
+
+    const changeVisibleFormCalculation = () => formCalculation.update(invert)//Сеттер
+    let visibleFormCalculation;
+    formCalculation.subscribe(value => visibleFormCalculation = value);//Геттер
+
+
 
 
     let pageOffer;
@@ -95,7 +105,7 @@
                     {/each}
                 </div>
                 <div class="hidden lg:flex lg:items-center lg:space-x-6">
-                    <button class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-slate-100 hover:bg-opacity-60"> Заказать расчёт </button>
+                    <button on:click={ changeVisibleFormCalculation } class="py-2 px-6 bg-sky-800 bg-opacity-70 border border-transparent rounded-md text-base font-medium text-slate-100 hover:bg-opacity-60"> Заказать расчёт </button>
                 </div>
             </nav>
 
