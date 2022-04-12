@@ -1,4 +1,5 @@
 <script>
+    import Calculation from "$lib/components/forms/calculation/index.svelte";
 
     import {useHeader} from "$lib/use/content/header";
     import {page} from '$app/stores';
@@ -151,6 +152,7 @@
 
 
     </div>
+    <Calculation/>
     <MobileMenu/>
 
 </header>
