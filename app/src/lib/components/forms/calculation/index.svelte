@@ -59,14 +59,39 @@
                 <p class="text-sm leading-6 text-gray-500">Ваш персональный менеджер</p>
             </div>
             <div class="flex flex-auto flex-col justify-between p-6">
-                <dl class="grid grid-cols-1 gap-x-6 gap-y-3 text-sm text-gray-700">
-                    <dt class="col-end-1 font-semibold text-gray-900">Phone</dt>
-                    <dd>881-460-8515</dd>
-                    <dt class="col-end-1 font-semibold text-gray-900">URL</dt>
-                    <dd class="truncate"><a href="https://example.com" class="text-indigo-600 underline">https://example.com</a></dd>
-                    <dt class="col-end-1 font-semibold text-gray-900">Email</dt>
-                    <dd class="truncate"><a href="#" class="text-indigo-600 underline">tomcook@example.com</a></dd>
-                </dl>
+                <!--
+                  This example requires Tailwind CSS v2.0+
+
+                  This example requires some changes to your config:
+
+                  ```
+                  // tailwind.config.js
+                  module.exports = {
+                    // ...
+                    plugins: [
+                      // ...
+                      require('@tailwindcss/forms'),
+                    ],
+                  }
+                  ```
+                -->
+                <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
+                    <label for="name" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Тип ремонта</label>
+                    <input type="text" name="name" id="name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">
+                </div>
+                <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
+                    <label for="name" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Примерная площадь</label>
+                    <input type="text" name="name" id="name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                </div>
+                <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
+                    <label for="name" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Нужен демонтаж?</label>
+                    <input type="text" name="name" id="name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                </div>
+                <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
+                    <label for="name" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Желаемые работы</label>
+                    <input type="text" name="name" id="name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                </div>
+
                 <button type="button" class="mt-6 w-full rounded-md border border-transparent bg-sky-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2">Отправить на обсчёт</button>
             </div>
         </div>
