@@ -52,29 +52,13 @@
             </button>
         </div>
 
-        <div class=" h-96  flex-none flex-col divide-y divide-gray-100 overflow-y-auto sm:flex">
+        <div class=" h-full  flex-none flex-col divide-y divide-gray-100 overflow-y-auto sm:flex">
             <div class="flex-none p-6 text-center">
                 <img src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="" class="mx-auto h-16 w-16 rounded-full">
                 <h2 class="mt-3 font-semibold text-gray-900">Татьяна Демидова</h2>
                 <p class="text-sm leading-6 text-gray-500">Ваш персональный менеджер</p>
             </div>
             <div class="flex flex-auto flex-col justify-between p-6">
-                <!--
-                  This example requires Tailwind CSS v2.0+
-
-                  This example requires some changes to your config:
-
-                  ```
-                  // tailwind.config.js
-                  module.exports = {
-                    // ...
-                    plugins: [
-                      // ...
-                      require('@tailwindcss/forms'),
-                    ],
-                  }
-                  ```
-                -->
                 <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                     <label for="name" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Тип ремонта</label>
                     <input type="text" name="name" id="name" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">

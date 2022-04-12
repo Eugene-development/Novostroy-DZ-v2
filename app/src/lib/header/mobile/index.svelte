@@ -1,6 +1,6 @@
 <script>
     import {useHeader} from "$lib/use/content/header";
-    import {formMeasurement, mobileMenu} from '../../../stores.js';
+    import {formCalculation, formMeasurement, mobileMenu} from '../../../stores.js';
 
     const {Menu} = useHeader;
     import {useVisible} from "$lib/use/functions/visible";
@@ -15,6 +15,12 @@
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
     let visibleMobileMenu;
     mobileMenu.subscribe(value => visibleMobileMenu = value);
+
+
+    const changeVisibleFormCalculation = () => formCalculation.update(invert)//Сеттер
+    let visibleFormCalculation;
+    formCalculation.subscribe(value => visibleFormCalculation = value);//Геттер
+
 
 </script>
 <!--
@@ -34,12 +40,12 @@
     <div class="absolute z-20 top-0 inset-x-0 p-2 mt-16 transition transform origin-top lg:hidden ">
         <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden bg-gray-50">
             <div class="px-5 pt-4 flex items-center justify-between">
-                <a on:click={changeVisibleMobileMenu} href="/">
+                <a on:click={ changeVisibleMobileMenu } href="/">
                     <img class="h-16 w-auto" src="/logo-header.png" alt="main">
                 </a>
 
                 <div class="-mr-2">
-                    <button on:click={changeVisibleMobileMenu} type="button"
+                    <button on:click={ changeVisibleMobileMenu } type="button"
                             class="bg-sky-700 rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
                         <span class="sr-only">Close menu</span>
                         <!-- Heroicon name: outline/x -->
@@ -59,7 +65,7 @@
                     {/each}
                 </div>
                 <div class="mt-6 px-5">
-                    <button on:click={changeVisibleFormMeasurement} type="button"
+                    <button on:click={ changeVisibleFormCalculation } on:click={ changeVisibleMobileMenu } type="button"
                             class="block text-center w-full py-3 rounded-md shadow bg-gradient-to-r from-sky-500 to-sky-700 text-white font-medium hover:from-sky-700 hover:to-sky-500">Заказать расчёт (услуга бесплатная)</button>
                 </div>
 <!--                <div class="mt-2 px-5">-->
