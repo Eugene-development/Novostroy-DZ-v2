@@ -113,7 +113,7 @@
 <!--                </div>-->
 
 
-                <div class="hidden lg:flex items-center">
+                <div class="hidden lg:flex items-center px-2">
                     <div class="">
                         <div class="flex space-x-2 bg-cyan-800 bg-opacity-10 px-3 py-2 rounded-xl">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
