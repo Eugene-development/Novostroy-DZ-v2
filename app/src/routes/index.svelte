@@ -30,17 +30,64 @@
 				<!-- Details section -->
 				<section aria-labelledby="details-heading">
 					<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
-						<div>
+						<div >
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
 								<img src="objects/4.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
 							</div>
-							<p class="mt-8 text-base text-gray-800">The 20L model has enough space for 370 candy bars, 6 cylinders of chips, 1220 standard gumballs, or any combination of on-the-go treats that your heart desires. Yes, we did the math.</p>
+							<div class="prose prose-sky">
+								<h3 class="mt-8 text-base text-gray-800">По желанию заказчика была отремонтирована только одна комната и выполнены следующие работы по капитальному ремонту:</h3>
+								<ul>
+									<li>
+										Замена деревянного оконного блока на двух камерный стеклопакет от фирмы «Rehau»
+									</li>
+									<li>
+										Произведен демонтаж старого деревянного напольного покрытия с последующим выравниванием полов и выкладки нового напольного покрытия в виде «Ламината» от фирмы «Egger»
+									</li>
+									<li>
+										Демонтаж обоев и штукатурки на стенах с последующим выравниванием стен и поклейкой обоев
+									</li>
+									<li>
+										Замена старых труб и радиатора отопления на новые пластиковые
+									</li>
+									<li>
+										Возведен, обшит и покрашен каркас для двух уровневого потолка, установлено полотно натяжного потолка, также была произведена полная замена электрики с выведением новых групп розеток, выключателей и установлено освещение в виде спотов
+									</li>
+									<li>
+										Также нашими сотрудниками были выполнены работы по сборке и установке мебели, установке телевизора, установке карниза, штор и тюлей
+									</li>
+								</ul>
+							</div>
 						</div>
 						<div>
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
 								<img src="objects/9.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
 							</div>
-							<p class="mt-8 text-base text-gray-800">Up your snack organization game with multiple compartment options. The quick-access stash pouch is ready for even the most unexpected snack attacks and sharing needs.</p>
+							<div class="prose prose-sky">
+								<h3 class="mt-8 text-base text-gray-800">Так как квартира нам досталась от застройщика то были выполнены следующие работы по ремонту "под ключ":</h3>
+								<ul>
+									<li>
+										По желанию клиента ремонт был выполнен в стилистике «Лофт»
+									</li>
+									<li>
+										Были окрашены стены грунтовкой глубокого проникновения, для предотвращения осыпания и маркости стен
+									</li>
+									<li>
+										Заменена дверная коробка межкомнатных дверей
+									</li>
+									<li>
+										Заменен радиатор отопления на новый от фирмы «Royal»
+									</li>
+									<li>
+										Возведен, обшит и покрашен каркас для двух уровневого потолка, покрашен потолок, по периметру потолка было выполнено освещение в виде светодиодной ленты подключенная через «диммер» для регулирования яркости светового потока и выбора цвета
+									</li>
+									<li>
+										Возведена ниша под телевизор из ГВЛ с подсветкой, обшитая ламинатом от фирмы «Kronotex»
+									</li>
+									<li>
+										Также нашими сотрудниками были выполнены работы по сборке и установке мебели, монтажу плазменного телевизора, установке карниза и штор
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -166,7 +213,11 @@
 								<svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
 									<path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
 								</svg>
-								<p class="relative">Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus.</p>
+								<p class="relative">Здравствуйте! Я Ваш личный помощник!
+									Могу ответить на все интересующие Вас вопросы.
+									Вы можете обратиться ко мне по телефону, написать письмо на электронную почту, telegram, либо написать на сайте через форму обратной связи.
+									В ожидании обратной связи!
+								</p>
 							</div>
 						</div>
 						<cite class="relative flex items-center sm:items-start bg-sky-700 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
