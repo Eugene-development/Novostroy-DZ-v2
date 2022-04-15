@@ -220,15 +220,14 @@
 								</p>
 							</div>
 						</div>
-						<cite class="relative flex items-center sm:items-start bg-sky-700 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
+						<div class="relative flex items-center sm:items-start bg-sky-700 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10">
 							<div class="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2">
 								<img class="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-purple-300" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80" alt="">
 							</div>
-							<span class="relative ml-4 text-sky-200 font-semibold leading-6 sm:ml-24 sm:pl-1">
-							  <p class="text-white font-semibold sm:inline">Татьяна Демидова</p>
-							  <p class="sm:inline"> - Старший менеджер</p>
-							</span>
-						</cite>
+							<div class="relative ml-4 text-white font-semibold leading-6 sm:ml-24 sm:pl-1">
+							  <p class="font-semibold sm:inline">Ваш менеджер, Татьяна Демидова</p>
+							</div>
+						</div>
 					</blockquote>
 				</div>
 			</div>

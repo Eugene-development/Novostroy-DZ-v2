@@ -77,7 +77,7 @@
 
 <header >
 
-    <div class="relative pb-24 sm:pb-32">
+    <div class="relative pb-16 sm:pb-16">
         <div class="absolute inset-0">
 <!--            <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">-->
 <!--            <img class="w-full h-full object-cover" src="https://avatars.mds.yandex.net/i?id=987b9678a99eb3232829d2b72dff58a0-5598196-images-thumbs&n=13&exp=1" alt="">-->
