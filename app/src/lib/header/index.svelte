@@ -1,5 +1,7 @@
 <script>
     import Calculation from "$lib/components/forms/calculation/index.svelte";
+    import ElementTransitions from "$lib/ElementTransitions/index.svelte";
+
 
     import {useHeader} from "$lib/use/content/header";
     import {page} from '$app/stores';
@@ -155,10 +157,10 @@
             {/if}
         </div>
 
-        <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h1 class="text-3xl font-bold tracking-tight text-sky-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
-            <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50 rounded-md">{pageDescription}</p>
-        </div>
+            <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
+                <h1 class="text-3xl font-bold tracking-tight text-sky-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
+                <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50 rounded-md">{pageDescription}</p>
+            </div>
 
 
     </div>
