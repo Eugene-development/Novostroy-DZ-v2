@@ -11,7 +11,6 @@
     import MobileMenu from "./mobile/index.svelte";
 
     import { mobileMenu} from "../../stores.js";
-    const { invert } = useVisible;
 
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
     let visibleMobileMenu;
@@ -19,6 +18,8 @@
 
     import { formCalculation } from "../../stores.js";
     import { useVisible } from "$lib/use/functions/visible";
+    const { invert } = useVisible;
+
 
     import axios from "axios";
 

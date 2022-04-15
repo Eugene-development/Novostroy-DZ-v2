@@ -1,6 +1,18 @@
 <script>
-    import {usePrice} from "$lib/use/content/price";
-    const {Price} = usePrice
+    import { usePrice } from "$lib/use/content/price";
+    const { Price } = usePrice
+
+
+    import { formCalculation } from "../../stores.js";
+    import { useVisible } from "$lib/use/functions/visible";
+    const { invert } = useVisible;
+
+    import axios from "axios";
+
+    const changeVisibleFormCalculation = () => formCalculation.update(invert)//Сеттер
+    let visibleFormCalculation;
+    formCalculation.subscribe(value => visibleFormCalculation = value);//Геттер
+
 
     const title = 'Цены на работы компании Новострой'
     const description = 'Стоимость работ на выполнение ремонта для обычгой и льготной категории граждан'
@@ -39,11 +51,11 @@
                         <span class="text-4xl font-extrabold text-gray-900">от {price} ₽</span>
                         <span class="text-base font-medium text-gray-500">/м.кв</span>
                     </p>
-                    <a href="#" class="mt-8 block w-full bg-sky-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-sky-900">Заказать рассчёт</a>
+                    <button on:click={ changeVisibleFormCalculation } class="mt-8 block w-full bg-sky-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-sky-900">Заказать рассчёт</button>
                 </div>
                 <div class="pt-6 pb-8 px-6">
                     <h3 class="text-xs font-medium text-gray-900 tracking-wide uppercase">Что входит:</h3>
-                    <ul role="list" class="mt-6 space-y-4">
+                    <ul class="mt-6 space-y-4">
 
                         {#each work as {name}}
                         <li class="flex space-x-3">
