@@ -32,7 +32,7 @@
                         </div>
                         <h3 class="mt-6 text-sm text-gray-500">
                                 <span class="absolute inset-0"></span>
-                                Адрес объекта:-{id}
+                                Адрес объекта:
                         </h3>
                         <p class="text-base font-semibold text-gray-900">{address}</p>
                     </div>

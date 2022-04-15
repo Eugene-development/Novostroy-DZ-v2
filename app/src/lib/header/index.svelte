@@ -178,7 +178,7 @@
                 <h1 class="text-3xl font-bold tracking-tight text-cyan-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
                 <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50 rounded-md">{pageDescription}</p>
                 <div class="">
-                    <button on:click={ changeVisibleFormCalculation } class="mt-8 py-2 px-6 bg-cyan-800 bg-opacity-10 p-2 rounded-xl  border border-transparent rounded-md text-2xl font-bold text-cyan-900 hover:text-gray-100 hover:bg-opacity-60"> Заказать расчёт </button>
+                    <button on:click={ changeVisibleFormCalculation } class="mt-8 py-2 px-6 bg-cyan-800  p-2 rounded-xl  border border-transparent rounded-md text-2xl font-bold text-cyan-900 hover:text-gray-100 bg-opacity-10 hover:bg-opacity-60"> Заказать расчёт </button>
                 </div>
 
             </div>
