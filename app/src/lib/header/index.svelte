@@ -77,11 +77,13 @@
 
 <header >
 
-    <div class="relative pb-16 sm:pb-16">
+    <div class="relative pb-16 sm:pb-20">
         <div class="absolute inset-0">
 <!--            <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">-->
 <!--            <img class="w-full h-full object-cover" src="https://avatars.mds.yandex.net/i?id=987b9678a99eb3232829d2b72dff58a0-5598196-images-thumbs&n=13&exp=1" alt="">-->
-            <img class="w-full h-full object-cover" src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614808138_178-p-fon-dlya-stroitelnogo-saita-224.jpg" alt="">
+            <img class="w-full h-full object-cover hidden lg:block" src="/promo/main.jpeg" alt="">
+<!--            <img class="w-full h-full object-cover lg:hidden opacity-40" src="/objects/4.jpg" alt="">-->
+            <img class="w-full h-full object-cover lg:hidden" src="/promo/mainMobile2.jpeg" alt="">
 <!--            <div class="absolute inset-0 bg-gradient-to-l from-sky-700 to-sky-900 mix-blend-multiply" aria-hidden="true"></div>-->
         </div>
         <div class="relative z-10 bg-sky-100 bg-opacity-40">
@@ -92,7 +94,7 @@
                         <img class="h-14 w-auto sm:h-14" src="/logo-header.png" alt="logo">
                     </a>
                     <div class="-mr-2 flex items-center lg:hidden">
-                        <button on:click={changeVisibleMobileMenu} type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-sky-600 hover:text-sky-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
+                        <button on:click={changeVisibleMobileMenu} type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-sky-700 hover:text-sky-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <span class="mx-2">Меню</span>
 
@@ -116,12 +118,12 @@
 
                 <div class="hidden lg:flex items-center px-2">
                     <div class="">
-                        <div class="flex space-x-2 bg-cyan-800 bg-opacity-10 px-3 py-2 rounded-xl">
+                        <div class="flex space-x-2 bg-sky-800 bg-opacity-10 px-3 py-2 rounded-xl">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-sky-900 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-sky-800 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
                             </svg>
-                            <p class="text-sky-900  rounded-md text-xl font-bold ">+7 (906) 045-64-44</p>
+                            <a href="tel:+79060456444" class="text-sky-800 rounded-md text-xl font-bold ">+7 (906) 045-64-44</a>
                         </div>
                     </div>
                 </div>
@@ -176,10 +178,10 @@
         </div>
 
             <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-                <h1 class="text-3xl font-bold tracking-tight text-cyan-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
-                <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-cyan-900 bg-opacity-50 rounded-md">{pageDescription}</p>
+                <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
+                <p class="mt-6 p-4 text-xl text-slate-100 max-w-2xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
                 <div class="">
-                    <button on:click={ changeVisibleFormCalculation } class="mt-8 py-2 px-6 bg-cyan-800  p-2 rounded-xl  border border-transparent rounded-md text-2xl font-bold text-cyan-900 hover:text-gray-100 bg-opacity-10 hover:bg-opacity-60"> Заказать расчёт </button>
+                    <button on:click={ changeVisibleFormCalculation } class="mt-8 py-2 px-6 bg-sky-800 bg-opacity-10 hover:bg-opacity-60 rounded-xl border border-transparent rounded-md text-2xl font-bold text-sky-900 hover:text-gray-100 "> Заказать расчёт </button>
                 </div>
 
             </div>

@@ -34,9 +34,10 @@
 
         </div>
 
-        <div class="sm:flex sm:flex-col sm:align-center">
-            <div class="relative self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8">
-                <button type="button" class="relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 sm:w-auto sm:px-8">Базовая цена ремонта квартиры</button>
+        <div class="align-center">
+            <div class="max-w-sm mx-auto self-center mt-6 bg-gray-100 rounded-lg p-0.5 flex sm:mt-8">
+<!--                <button type="button" class="relative w-1/2 bg-white border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 sm:w-auto sm:px-8">Базовая цена ремонта квартиры</button>-->
+                <button type="button" class=" px-8 bg-white border border-gray-200 rounded-md shadow-sm py-2 text-sm font-medium text-gray-900 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 w-full">Базовая цена ремонта квартиры</button>
 <!--                <button type="button" class="ml-0.5 relative w-1/2 border border-transparent rounded-md py-2 text-sm font-medium text-gray-700 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-sky-500 focus:z-10 sm:w-auto sm:px-8">Льготные цены</button>-->
             </div>
         </div>
