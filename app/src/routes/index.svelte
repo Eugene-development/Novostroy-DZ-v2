@@ -175,7 +175,7 @@
 				<div class="relative z-10">
 					<div class="prose prose-sky text-gray-500 mx-auto lg:max-w-none">
 						<p class="text-lg">Для этого наши специалисты:</p>
-						<ul role="list">
+						<ul>
 							<li>полностью демонтируют отделку</li>
 							<li>сносят и устанавливают стены, а также перегородки, используя самые качественные материалы</li>
 							<li>выравнивают потолки и стены</li>

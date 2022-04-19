@@ -141,40 +141,40 @@
                 From: "opacity-100 scale-100"
                 To: "opacity-0 scale-95"
             -->
-            {#if false}
-            <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top lg:hidden">
-                <div class="rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-                    <div class="px-5 pt-4 flex items-center justify-between">
-                        <div>
-                            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=emerald&shade=400" alt="">
-                        </div>
-                        <div class="-mr-2">
-                            <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
-                                <span class="sr-only">Close menu</span>
-                                <!-- Heroicon name: outline/x -->
-                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="pt-5 pb-6">
-                        <div class="px-2 space-y-1">
-                            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">Changelog</a>
+            <!--{#if false}-->
+            <!--<div class="absolute top-0 inset-x-0 p-2 transition transform origin-top lg:hidden">-->
+            <!--    <div class="rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">-->
+            <!--        <div class="px-5 pt-4 flex items-center justify-between">-->
+            <!--            <div>-->
+            <!--                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=emerald&shade=400" alt="">-->
+            <!--            </div>-->
+            <!--            <div class="-mr-2">-->
+            <!--                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">-->
+            <!--                    <span class="sr-only">Close menu</span>-->
+            <!--                    &lt;!&ndash; Heroicon name: outline/x &ndash;&gt;-->
+            <!--                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+            <!--                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />-->
+            <!--                    </svg>-->
+            <!--                </button>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--        <div class="pt-5 pb-6">-->
+            <!--            <div class="px-2 space-y-1">-->
+            <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">Changelog</a>-->
 
-                            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">About</a>
+            <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">About</a>-->
 
-                            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">Partners</a>
+            <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">Partners</a>-->
 
-                            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">News</a>
-                        </div>
-                        <div class="mt-6 px-5">
-                            <a href="#" class="block text-center w-full py-2 px-4 border border-transparent rounded-md shadow bg-green-400 text-white font-medium hover:bg-green-500">Login</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/if}
+            <!--                <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-warm-gray-900 hover:bg-warm-gray-50">News</a>-->
+            <!--            </div>-->
+            <!--            <div class="mt-6 px-5">-->
+            <!--                <a href="#" class="block text-center w-full py-2 px-4 border border-transparent rounded-md shadow bg-green-400 text-white font-medium hover:bg-green-500">Login</a>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+            <!--{/if}-->
         </div>
 
             <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
