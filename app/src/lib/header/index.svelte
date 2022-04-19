@@ -178,8 +178,8 @@
         </div>
 
             <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8">
-                <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-3xl lg:text-5xl ">{pageOffer}</h1>
-                <p class="mt-6 p-4 text-xl text-white max-w-2xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
+                <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-4xl lg:text-5xl ">{pageOffer}</h1>
+                <p class="mt-6 p-4 text-base sm:text-lg text-white max-w-2xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
                 <div class="">
                     <button on:click={ changeVisibleFormCalculation } class="mt-8 py-2 px-6 bg-sky-800 bg-opacity-10 hover:bg-opacity-60 rounded-xl border border-transparent rounded-md text-2xl font-bold text-sky-900 hover:text-gray-100 "> Заказать расчёт </button>
                 </div>
