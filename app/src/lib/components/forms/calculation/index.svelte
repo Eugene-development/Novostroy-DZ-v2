@@ -12,6 +12,36 @@
     formCalculation.subscribe(value => visibleFormCalculation = value);//Геттер
 
 
+    let type = ''
+    let square = ''
+    let destroy = ''
+    let work = ''
+
+    const url = `/sendCalculation`;
+
+    const domain = import.meta.env.VITE_API_MAIL;
+    const apiCRUD = {
+        baseURL: `${domain}`,
+        headers: {
+            Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
+        }
+    };
+
+    async function sendCalculation() {
+        try {
+            const data = {
+                type,
+                square,
+                destroy,
+                work,
+            };
+            await axios.post(url, data, apiCRUD);
+            changeVisibleFormCalculation();
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
 </script>
 {#if (visibleFormCalculation)}
     <ElementTransitions>
@@ -63,22 +93,22 @@
                     <div class="flex flex-auto flex-col justify-between p-6">
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="type" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Тип ремонта</label>
-                            <input type="text" name="name" id="type" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">
+                            <input bind:value={ type } type="text" name="name" id="type" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="square" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Примерная площадь</label>
-                            <input type="text" name="name" id="square" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                            <input bind:value={ square } type="text" name="name" id="square" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="destroy" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Нужен демонтаж?</label>
-                            <input type="text" name="name" id="destroy" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                            <input bind:value={ destroy } type="text" name="name" id="destroy" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="work" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Желаемые работы</label>
-                            <input type="text" name="name" id="work" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                            <input bind:value={ work } type="text" name="name" id="work" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
 
-                        <button type="button" class="mt-6 w-full rounded-md border border-transparent bg-sky-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2">Отправить на обсчёт</button>
+                        <button on:click={ sendCalculation } type="button" class="mt-6 w-full rounded-md border border-transparent bg-sky-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2">Отправить на обсчёт</button>
                     </div>
                 </div>
 
