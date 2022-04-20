@@ -7,15 +7,16 @@
 
     const { invert } = useVisible;
 
-    const changeVisibleFormCalculation = () => formCalculation.update(invert)//Сеттер
+    const changeVisibleFormCalculation = () => formCalculation.update(invert)
     let visibleFormCalculation;
-    formCalculation.subscribe(value => visibleFormCalculation = value);//Геттер
+    formCalculation.subscribe(value => visibleFormCalculation = value);
 
 
     let type = ''
     let square = ''
     let destroy = ''
     let work = ''
+    let phone = ''
 
     const url = `/sendCalculation`;
 
@@ -34,6 +35,7 @@
                 square,
                 destroy,
                 work,
+                phone,
             };
             await axios.post(url, data, apiCRUD);
             changeVisibleFormCalculation();
@@ -107,6 +109,11 @@
                             <label for="work" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Желаемые работы</label>
                             <input bind:value={ work } type="text" name="name" id="work" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
+                        <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
+                            <label for="phone" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Ваш телефон</label>
+                            <input bind:value={ phone } type="text" name="name" id="phone" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">
+                        </div>
+
 
                         <button on:click={ sendCalculation } type="button" class="mt-6 w-full rounded-md border border-transparent bg-sky-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2">Отправить на обсчёт</button>
                     </div>
