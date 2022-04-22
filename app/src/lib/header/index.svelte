@@ -3,14 +3,14 @@
     import ElementTransitions from "$lib/ElementTransitions/index.svelte";
 
 
-    import {useHeader} from "$lib/use/content/header";
-    import {page} from '$app/stores';
+    import { useHeader } from "$lib/use/content/header";
+    import { page } from '$app/stores';
 
-    const {Menu} = useHeader
+    const { Menu } = useHeader
 
     import MobileMenu from "./mobile/index.svelte";
 
-    import { mobileMenu} from "../../stores.js";
+    import { mobileMenu } from "../../stores.js";
 
     const changeVisibleMobileMenu = () => mobileMenu.update(invert);
     let visibleMobileMenu;

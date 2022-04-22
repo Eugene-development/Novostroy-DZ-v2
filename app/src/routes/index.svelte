@@ -1,7 +1,17 @@
 <script>
-	import {useMain} from "$lib/use/content/main";
+	import { useMain } from "$lib/use/content/main";
+	import {formCalculation, formConsultation} from "../stores.js";
+	import { useVisible } from "$lib/use/functions/visible/index.js";
 
-	const {Benefits} = useMain
+	import Consultation from '$lib/components/forms/consultations/index.svelte'
+	const { invert } = useVisible;
+
+	const changeVisibleFormConsultation = () => formConsultation.update( invert )
+	let visibleFormConsultation;
+	formConsultation.subscribe(value => visibleFormConsultation = value);
+
+
+	const { Benefits } = useMain
 	const title = 'Ремонт квартир в Дзержинске и области'
 	const description = 'Выполняем работы по ремонту квартир в Дзержинске по проиемлемым ценам'
 </script>
@@ -333,9 +343,10 @@
 					<h2 class="text-xl font-bold text-white">Бесплатная услуга</h2>
 					<p class="mt-1 text-sm text-gray-300">Консультация на объекте для получения более подробной информации и рекомендуемых работах.</p>
 				</div>
-				<button class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Записаться на консультацию</button>
+				<button on:click={ changeVisibleFormConsultation } class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Записаться на консультацию</button>
 			</div>
 		</div>
 	</div>
 </div>
 
+<Consultation/>
