@@ -37,7 +37,7 @@
 {#if (visibleMobileMenu)}
 
 
-    <div class="absolute z-20 top-0 inset-x-0 p-2 mt-16 transition transform origin-top lg:hidden ">
+    <div class="absolute z-20 top-0 inset-x-0 p-2 mt-20 transition transform origin-top lg:hidden ">
         <div class="rounded-lg shadow-md  ring-1 ring-black ring-opacity-5 overflow-hidden bg-gray-50">
             <div class="px-5 pt-4 flex items-center justify-between">
                 <a on:click={ changeVisibleMobileMenu } href="/">
