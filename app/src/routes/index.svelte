@@ -42,7 +42,7 @@
 					<div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
 						<div >
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-								<img src="objects/4.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
+								<img src="objects/4.jpg" alt="ремонт" class="w-full object-center object-cover">
 							</div>
 							<div class="prose prose-sky">
 								<h3 class="mt-8 text-base text-gray-800">По желанию заказчика была отремонтирована только одна комната и выполнены следующие работы по капитальному ремонту:</h3>
@@ -70,7 +70,7 @@
 						</div>
 						<div>
 							<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-								<img src="objects/9.jpg" alt="ремонт" class="w-full h-96 object-center object-cover">
+								<img src="objects/9.jpg" alt="ремонт" class="w-full object-center object-cover">
 							</div>
 							<div class="prose prose-sky">
 								<h3 class="mt-8 text-base text-gray-800">Так как квартира нам досталась от застройщика то были выполнены следующие работы по ремонту "под ключ":</h3>
