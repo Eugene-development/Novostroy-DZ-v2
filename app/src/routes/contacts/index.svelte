@@ -76,7 +76,7 @@
                             </svg>
                         </div>
                         <div class="ml-3 text-base text-gray-500">
-                            <p>novobuild@yandex.ru</p>
+                            <p>novo-stroy2009@yandex.ru</p>
                         </div>
                     </div>
                     <div class="mt-6 flex">

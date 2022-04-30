@@ -81,12 +81,14 @@
         <div class="absolute inset-0">
 <!--            <img class="w-full h-full object-cover" src="https://smart-otdelka.ru/upload/iblock/aed/aedb211a487000654b4d3598f6904f4f.jpg" alt="">-->
 <!--            <img class="w-full h-full object-cover" src="https://avatars.mds.yandex.net/i?id=987b9678a99eb3232829d2b72dff58a0-5598196-images-thumbs&n=13&exp=1" alt="">-->
+<!--            <img class="w-full h-full object-cover hidden lg:block" src="https://domeo-moscow.ru/assets/img/c00ef7693cf501bdd835.webp" alt="">-->
             <img class="w-full h-full object-cover hidden lg:block" src="/promo/main.jpeg" alt="">
 <!--            <img class="w-full h-full object-cover lg:hidden opacity-40" src="/objects/4.jpg" alt="">-->
-            <img class="w-full h-full object-cover lg:hidden" src="/promo/mainMobile2.jpeg" alt="">
+<!--            <img class="w-full h-full object-cover lg:hidden" src="https://domeo-moscow.ru/assets/img/c00ef7693cf501bdd835.webp" alt="">-->
+            <img class="w-full h-full object-cover lg:hidden" src="/promo/mainMobile.jpeg" alt="">
 <!--            <div class="absolute inset-0 bg-gradient-to-l from-sky-700 to-sky-900 mix-blend-multiply" aria-hidden="true"></div>-->
         </div>
-        <div class="relative z-10 bg-sky-100 bg-opacity-40">
+        <div class="relative z-10 bg-slate-200 bg-opacity-40">
             <nav class="relative max-w-7xl mx-auto flex items-center justify-between p-2" aria-label="Global">
                 <div class="flex items-center justify-between w-full lg:w-auto">
                     <a href="/">
@@ -179,7 +181,7 @@
 
             <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8 items-center">
                 <h1 class="text-4xl font-bold tracking-tight text-sky-900 sm:text-4xl lg:text-5xl ">{pageOffer}</h1>
-                <p class="mt-6 p-4 text-base sm:text-lg text-white max-w-2xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
+                <p class="mt-6 p-4 text-base sm:text-lg text-white max-w-xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
                 <div class="">
                     <button on:click={ changeVisibleFormCalculation } class=" mt-8 pb-2 pt-1 px-6 bg-sky-800 bg-opacity-10 hover:bg-opacity-60 rounded-xl border border-transparent rounded-md text-2xl font-bold text-sky-900 hover:text-gray-100 "> Заказать расчёт </button>
                 </div>

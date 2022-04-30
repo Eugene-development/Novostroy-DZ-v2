@@ -21,7 +21,7 @@
     const url = `/sendCalculation`;
 
     const domain = import.meta.env.VITE_API_MAIL;
-    const apiCRUD = {
+    const apiMAIL = {
         baseURL: `${domain}`,
         headers: {
             Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
@@ -37,7 +37,7 @@
                 work,
                 phone,
             };
-            await axios.post(url, data, apiCRUD);
+            await axios.post(url, data, apiMAIL);
             changeVisibleFormCalculation();
         } catch (error) {
             console.error(error);
@@ -99,19 +99,19 @@
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="square" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Примерная площадь</label>
-                            <input bind:value={ square } type="text" name="name" id="square" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                            <input bind:value={ square } type="text" name="square" id="square" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="destroy" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Нужен демонтаж?</label>
-                            <input bind:value={ destroy } type="text" name="name" id="destroy" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                            <input bind:value={ destroy } type="text" name="destroy" id="destroy" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="work" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Желаемые работы</label>
-                            <input bind:value={ work } type="text" name="name" id="work" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
+                            <input bind:value={ work } type="text" name="work" id="work" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm" >
                         </div>
                         <div class="mb-6 relative border border-gray-300 rounded-md px-3 py-2 shadow-sm focus-within:ring-1 focus-within:ring-sky-600 focus-within:border-sky-600">
                             <label for="phone" class="absolute -top-2 left-2 -mt-px inline-block px-1 bg-white text-xs font-medium text-gray-900">Ваш телефон</label>
-                            <input bind:value={ phone } type="text" name="name" id="phone" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">
+                            <input bind:value={ phone } type="text" name="phone" id="phone" class="block w-full border-0 p-0 text-gray-900 placeholder-gray-500 focus:ring-0 sm:text-sm">
                         </div>
 
 
