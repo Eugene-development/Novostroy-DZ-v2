@@ -29,7 +29,7 @@
 		<div class="text-lg  max-w-prose mx-auto">
 			<h1>
 				<span class="block text-base text-center text-sky-600 font-semibold tracking-wide uppercase">Главная</span>
-				<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Ремонт квартир недорого и качественно</span>
+				<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-4xl">Ремонт квартир недорого и качественно</span>
 			</h1>
 			<p class="mt-3 max-w-3xl text-lg text-gray-900 text-center">Компания "Новострой" предлагает услуги по ремонту квартир в Дзержинске и Нижегородской области. Выполняем работы "под ключ" или частично.</p>
 
@@ -113,10 +113,10 @@
 
 				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-					<div class="max-w-4xl mx-auto text-center">
+					<div class="max-w-5xl mx-auto text-center ">
 
-						<h2 class="text-4xl font-extrabold text-cyan-50 sm:text-5xl">Мы предлагаем</h2>
-						<p class="mt-3 text-xl text-cyan-50 sm:mt-4">профессиональный полный или частичный ремонт квартир в Дзержинске.
+						<h2 class="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-200 sm:text-5xl">Мы предлагаем качественный ремонт квартир</h2>
+						<p class="mt-3 text-xl text-cyan-50 sm:mt-4">В нашей компании работают только специалисты в своём деле и мы уверены в их работе
 							<!--					<br> Строительство малоэтажных конструкций, бань, дач и технических сооружений.-->
 						</p>
 					</div>
