@@ -38,23 +38,23 @@
             pageDescription = 'Независимо от того, какой именно ремонт в квартире нужен, наши специалисты выполнят любые работы. Вы можете заказать ремонт одной из комнат, помещения или полностью квартиры под ключ – мы сделаем работу быстро и качественно.'
             break;
         case '/about':
-            pageOffer = 'О нашей компании'
+            pageOffer = 'Информация о нашей компании'
             pageDescription = 'Для нас главным приоритетом является довольный клиент, поэтому мы выбираем и применяем лучшие технологические решения. В результате каждый, кто обращается к нам, на собственном примере убеждается – это действительно то, чего он хотел.'
             break;
         case '/price':
-            pageOffer = 'Цены на услуги'
+            pageOffer = 'Цены на ремонт квартиры'
             pageDescription = 'Стоимость наших услуг зависит от объема, а также сложности работ. Мы также разработали специальные программы лояльности, акции и другие бонусы, помогающие сэкономить. К тому же даже без скидок наш обычный прайс имеет доступные цены.'
             break;
         case '/objects':
-            pageOffer = 'Выполненные объекты'
+            pageOffer = 'Квартиры после нашего ремонта'
             pageDescription = 'Здесь вашему вниманию представлены проекты выполненных работ по ремонту квартир разных стилей. Своей гордостью мы считаем максимальное внимание именно к деталям и мелочам, ведь именно из них состоит основа вашего будущего комфорта и удобства.'
             break;
         case '/blog':
-            pageOffer = 'Наш блог'
+            pageOffer = 'Наш тематический блог о ремонте'
             pageDescription = 'Мы собрали самые интересные статьи, из которых вы сможете узнать ценную информацию, касаемо квартирного ремонта и всем, что с ним связано. Независимо от того, что именно вас интересует, просто заходите сюда, и вы наверняка найдёте что-то интересное.'
             break;
         case '/contacts':
-            pageOffer = 'Связь с нами'
+            pageOffer = 'Контактные данные с сотрудниками'
             pageDescription = 'Если по каким-либо причинам у вас остались или наоборот, появились вопросы, вы можете задать их нашим специалистам по телефону, почте или через чат. Мы практически все время на связи, поэтому ответ последует в максимально короткие сроки.'
             break;
         default:
@@ -179,8 +179,8 @@
             <!--{/if}-->
         </div>
 
-            <div class="relative mt-24 mx-auto p-4 sm:max-w-3xl sm:mt-32 sm:px-6 lg:max-w-7xl lg:px-8 items-center">
-                <h1 class="text-4xl font-bold tracking-tight bg-clip-text text-cyan-700 sm:text-4xl lg:text-5xl ">{pageOffer}</h1>
+            <div class="relative mt-24 mx-auto p-4 sm:max-w-4xl sm:mt-32 sm:px-6 lg:max-w-7xl items-center">
+                <h1 class=" font-bold tracking-tight bg-clip-text bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 via-yellow-500 to-yellow-600 text-5xl lg:text-6xl max-w-xl">{pageOffer}</h1>
                 <p class="mt-6 p-4 text-base sm:text-lg text-white max-w-xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
                 <div class="">
                     <button on:click={ changeVisibleFormCalculation } class=" mt-8 pb-2 pt-1 px-6 bg-sky-800 bg-opacity-10 hover:bg-opacity-60 rounded-xl border border-transparent rounded-md text-2xl font-bold text-sky-900 hover:text-gray-100 "> Заказать расчёт </button>

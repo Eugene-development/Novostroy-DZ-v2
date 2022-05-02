@@ -115,7 +115,7 @@
 
 					<div class="max-w-5xl mx-auto text-center ">
 
-						<h2 class="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-200 sm:text-5xl">Мы предлагаем качественный ремонт квартир</h2>
+						<h2 class="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-blue-200 sm:text-5xl">Мы предлагаем качественный ремонт квартир в Дзержинске</h2>
 						<p class="mt-3 text-xl text-cyan-50 sm:mt-4">В нашей компании работают только специалисты в своём деле и мы уверены в их работе
 							<!--					<br> Строительство малоэтажных конструкций, бань, дач и технических сооружений.-->
 						</p>
@@ -154,10 +154,10 @@
 				<div class="relative">
 					<dt>
 						<!-- Heroicon name: outline/check -->
-						<svg class="absolute h-6 w-6 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+						<svg class="absolute h-6 w-6 text-red-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 						</svg>
-						<p class="ml-9 text-lg leading-6 font-medium text-gray-900">{title}</p>
+						<p class="ml-9 text-lg leading-6 font-medium text-red-900">{title}</p>
 					</dt>
 					<dd class="mt-2 ml-9 text-base text-gray-500">{text}</dd>
 				</div>
@@ -169,12 +169,12 @@
 
 <section class="">
 
-	<div class="py-16 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
+	<div class="py-24 bg-gradient-to-b from-white via-white to-gray-50 overflow-hidden">
 
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
 				<h2 class="text-base text-sky-600 font-semibold tracking-wide uppercase">Наша услуга</h2>
-				<p class="mt-2 text-4xl leading-8 font-extrabold tracking-tight text-sky-900 sm:text-5xl">Ремонт квартир любой сложности</p>
+				<p class="mt-2 text-4xl leading-8 font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-6xl">Ремонт квартир любой сложности</p>
 			</div>
 			<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
 				<p class="py-1 text-lg text-gray-500">Время от времени у каждого возникает необходимость облагородить свое родное помещение. Если и для вас настал такой момент, доверьте эту работу настоящим профессионалам. </p>
@@ -216,7 +216,7 @@
 						</defs>
 						<rect width="404" height="384" fill="url(#bedc54bc-7371-44a2-a2bc-dc68d819ae60)" />
 					</svg>
-					<blockquote class="relative bg-gradient-to-b from-slate-100 via-slate-100 to-sky-700 rounded-lg shadow-lg">
+					<blockquote class="relative bg-gradient-to-b from-slate-50 via-slate-50 to-sky-600 rounded-lg shadow-lg">
 						<div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
 							<img src="/logo.png" alt="logo" class="h-16">
 							<div class="relative text-lg text-gray-700 font-medium mt-8">
