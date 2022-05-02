@@ -115,7 +115,7 @@
 
 					<div class="max-w-5xl mx-auto text-center ">
 
-						<h2 class="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-red-500 to-blue-200 sm:text-5xl">Мы предлагаем качественный ремонт квартир в Дзержинске</h2>
+						<h2 class="text-4xl font-extrabold text-gray-50 sm:text-5xl">Мы предлагаем качественный ремонт квартир в Дзержинске</h2>
 						<p class="mt-3 text-xl text-cyan-50 sm:mt-4">В нашей компании работают только специалисты в своём деле и мы уверены в их работе
 							<!--					<br> Строительство малоэтажных конструкций, бань, дач и технических сооружений.-->
 						</p>
