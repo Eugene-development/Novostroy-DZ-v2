@@ -93,7 +93,7 @@
                 <div class="flex items-center justify-between w-full lg:w-auto">
                     <a href="/">
                         <span class="sr-only">Novostroy</span>
-                        <img class="h-14 w-auto sm:h-14" src="/logo-header.png" alt="logo">
+                        <img class="h-14 w-auto sm:h-14 transition ease-in-out delay-100 hover:scale-110 duration-500" src="/logo-header.png" alt="logo">
                     </a>
                     <div class="-mr-2 flex items-center lg:hidden">
                         <button on:click={changeVisibleMobileMenu} type="button" class="bg-sky-800 bg-opacity-0 rounded-md p-2 inline-flex items-center justify-center text-sky-700 hover:text-sky-100 hover:bg-opacity-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="hidden space-x-10 lg:flex lg:ml-10">
                     {#each Menu as {value, link}}
-                        <a href="/{link}" class="text-base font-medium text-sky-900 hover:text-pink-900"> {value} </a>
+                        <a href="/{link}" class="text-base font-medium text-sky-900 hover:text-pink-900 transition ease-in-out delay-100 hover:scale-110 duration-500"> {value} </a>
                     {/each}
                 </div>
 <!--                <div class="hidden lg:flex lg:items-center lg:space-x-6">-->

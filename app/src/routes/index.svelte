@@ -174,7 +174,7 @@
 		<div class="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
 			<div class="text-base max-w-prose mx-auto lg:max-w-none">
 				<h2 class="text-base text-sky-600 font-semibold tracking-wide uppercase">Наша услуга</h2>
-				<p class="mt-2 text-4xl leading-8 font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-6xl">Ремонт квартир любой сложности</p>
+				<p class="mt-2 text-4xl leading-8 font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-red-700 to-blue-700 sm:text-6xl">Ремонт квартир в Дзержинске любой сложности</p>
 			</div>
 			<div class="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
 				<p class="py-1 text-lg text-gray-500">Время от времени у каждого возникает необходимость облагородить свое родное помещение. Если и для вас настал такой момент, доверьте эту работу настоящим профессионалам. </p>
