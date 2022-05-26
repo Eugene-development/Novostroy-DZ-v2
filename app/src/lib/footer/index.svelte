@@ -15,8 +15,8 @@
     <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
             {#each Menu as {value, link}}
-                <div class="px-5 py-2">
-                    <a href="/{link}" class="text-base text-gray-500 hover:text-gray-900"> {value} </a>
+                <div class="px-5 py-2 transition ease-in-out delay-100 hover:scale-110 duration-500">
+                    <a href="/{link}" class="text-base text-gray-500 hover:text-gray-900 "> {value} </a>
                 </div>
             {/each}
         </nav>

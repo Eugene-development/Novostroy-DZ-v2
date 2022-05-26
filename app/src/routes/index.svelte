@@ -343,7 +343,7 @@
 					<h2 class="text-xl font-bold text-white">Бесплатная услуга</h2>
 					<p class="mt-1 text-sm text-gray-300">Консультация на объекте для получения более подробной информации и рекомендуемых работах.</p>
 				</div>
-				<button on:click={ changeVisibleFormConsultation } class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full">Записаться на консультацию</button>
+				<button on:click={ changeVisibleFormConsultation } class="mt-6 flex-shrink-0 flex bg-white bg-opacity-0 py-3 px-4 border border-white border-opacity-25 rounded-md items-center justify-center text-base font-medium text-white hover:bg-opacity-10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full transition ease-in-out delay-100 hover:scale-105 duration-500">Записаться на консультацию</button>
 			</div>
 		</div>
 	</div>
