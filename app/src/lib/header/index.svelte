@@ -28,6 +28,19 @@
     formCalculation.subscribe(value => visibleFormCalculation = value);//Геттер
 
 
+    import {onMount} from 'svelte';
+    import {useGasp} from "$lib/use/functions/gasp/index.js";
+    const {gaspText} = useGasp;
+
+    const boxParam = {
+        box1: 'box1',
+        box2: 'box2',
+    };
+    // () => gsapOpacity(boxParam)
+    onMount(async () => {
+        await gaspText(boxParam.box1);
+    });
+
 
 
     let pageOffer;
@@ -65,7 +78,7 @@
 </script>
 
 
-<div class="relative bg-sky-900">
+<div class="relative bg-sky-900" id="navbar" >
     <div class="max-w-7xl mx-auto py-3 lg:px-8">
         <div class="text-center">
             <div class="font-medium text-white text-sm px-8">
@@ -109,7 +122,7 @@
                 </div>
                 <div class="hidden space-x-10 lg:flex lg:ml-10">
                     {#each Menu as {value, link}}
-                        <a href="/{link}" class="text-base font-medium text-sky-900 hover:text-pink-900 transition ease-in-out delay-100 hover:scale-110 duration-500"> {value} </a>
+                        <a href="/{link}" on:click={() => gaspText(boxParam.box1)} class="text-base font-medium text-sky-900 hover:text-pink-900 transition ease-in-out delay-100 hover:scale-110 duration-500"> {value} </a>
                     {/each}
                 </div>
 <!--                <div class="hidden lg:flex lg:items-center lg:space-x-6">-->
@@ -179,7 +192,7 @@
             <!--{/if}-->
         </div>
 
-            <div class="relative mt-24 mx-auto p-4 sm:max-w-4xl sm:mt-32 sm:px-6 lg:max-w-7xl items-center">
+            <div id="{boxParam.box1}" class="relative mt-24 mx-auto p-4 sm:max-w-4xl sm:mt-32 sm:px-6 lg:max-w-7xl items-center">
                 <h1 class=" font-bold tracking-tight bg-clip-text bg-clip-text text-transparent bg-gradient-to-r from-cyan-600 via-yellow-500 to-yellow-600 text-5xl lg:text-6xl max-w-xl">{pageOffer}</h1>
                 <p class="mt-6 p-4 text-base sm:text-lg text-white max-w-xl bg-sky-800 bg-opacity-60 rounded-md">{pageDescription}</p>
                 <div class="">
