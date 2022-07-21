@@ -30,7 +30,7 @@
 
     import {onMount} from 'svelte';
     import {useGasp} from "$lib/use/functions/gasp/index.js";
-    const {gaspText} = useGasp;
+    const {gaspText, kill} = useGasp;
 
     const boxParam = {
         box1: 'box1',
@@ -41,6 +41,10 @@
         await gaspText(boxParam.box1);
     });
 
+    // const eventClick = () => {
+    //     // () => kill(boxParam.box1);
+    //     () => gaspText(boxParam.box1);
+    // }
 
 
     let pageOffer;

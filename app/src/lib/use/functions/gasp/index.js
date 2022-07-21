@@ -9,10 +9,10 @@ const gsapOpacity = (boxParam) => {
 
 const gaspText = (param1, param2) => {
     const tl = gsap.timeline();
-    const duration = 2;
+    const duration = 1;
     tl
-        .to("#" + param1, {duration, x: 10, delay: 1})
-        .to("#" + param1, {duration, x: -10})
+        .to("#" + param1, {duration, x: 5, delay: 0.5})
+        .to("#" + param1, {duration, x: -5})
 }
 
 const toBig = (param1) => {
@@ -22,8 +22,15 @@ const toBig = (param1) => {
         .to("#" + param1, {scale: 0.99,  })
 }
 
+const kill = (param1) => {
+    const tl = gsap.timeline();
+    tl
+        .to("#" + param1, {onInterrupt:gaspText})
+}
+
 export const useGasp = {
     gsapOpacity,
     gaspText,
-    toBig
+    toBig,
+    kill
 }
